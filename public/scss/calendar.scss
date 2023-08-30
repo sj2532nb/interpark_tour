@@ -1,0 +1,133 @@
+#wrap{
+    width: 100%;
+    .dal{
+        position: absolute;
+        z-index: 3;
+        top: 0; //25
+        right: 0;  //40
+        background: #fff;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 1px 1px 10px 0;
+        padding: 25px;
+        .dal1{
+            text-align: center;
+            .dal-header{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin: 0 0 15px 0;
+                padding: 0 12px;
+                
+                >h1{
+                    font-size: 20px;
+                    font-weight: 700;
+                    color: #000;
+                }
+                button{
+                    border: 0;
+                    background: none;
+                    cursor: pointer;
+                }
+                
+            }
+            table{
+                border-collapse: collapse;
+                margin: 0 0 5px 0;
+                th,td{
+                    padding: 12px;
+                    text-align: center;
+                    cursor: pointer;
+                }
+                tbody{
+                    tr{
+                        td{
+                            
+                            
+                            font-size: 18px;
+                            font-weight: 700;
+                            &:nth-child(1){                                
+                                color: red; 
+                                &.date-empty{
+                                    color: #ccc;
+                                }  
+                            }
+                            &.on{
+                                position: relative;
+                                background: red;
+                                color: #fff;
+                                border-radius: 50%;
+                                &::before{
+                                    content: "";
+                                    position: absolute;
+                                    z-index: -1;
+                                    top: 0;
+                                    right: 0;
+                                    width: 50%;
+                                    height: 42px;
+                                    background: #ffbec0;
+                                }
+                            }
+                            &.on2{
+                                background: #ffbec0;
+                            }
+                            &.big{
+                                position: relative;
+                                background: red;
+                                color: #fff;
+                                border-radius: 50%;
+                                &::before{
+                                    content: "";
+                                    position: absolute;
+                                    z-index: -1;
+                                    top: 0;
+                                    left: 0;
+                                    width: 50%;
+                                    height: 42px;
+                                    background: #ffbec0;
+                                }
+                            }
+                        }
+                        .date-empty{
+                            pointer-events: none;
+                            color: #ccc;
+                        }
+                    }
+                }
+            }
+            .dal-btn{
+                display: none;
+                
+                align-items: center;
+                border: 0;
+                padding: 10px 20px;
+                font-size: 16px;
+                font-weight: 700;
+                border-radius: 12px;
+                color: #fff;
+                transition: all 0.3s;
+                cursor: pointer;
+                #dateInput{
+                    border: 0;
+                    outline: 0;
+                    transition: all 0.3s;
+                    font-size: 16px;
+                    font-weight: 700;
+                    color: #fff;
+                    cursor: pointer;
+                }
+                &.on{
+                    display: inline-flex;
+                    background-color: #f5575f;
+                    
+                    #dateInput{
+                        background: #f5575f;
+                        border: 0;
+                    }
+                }
+                
+            }
+            
+        }
+    }
+}

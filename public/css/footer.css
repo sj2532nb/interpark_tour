@@ -1,0 +1,110 @@
+#footer {
+  width: 100%;
+  height: 340px;
+}
+#footer .container {
+  width: 100%;
+}
+#footer .container .underline {
+  border-bottom: 1px solid #eee;
+}
+#footer .container .gap {
+  width: 1280px;
+  margin: 0 auto;
+}
+#footer .container .gap .footer-1 {
+  display: flex;
+  justify-content: flex-start;
+  height: 51px;
+  line-height: 51px;
+}
+#footer .container .gap .footer-1 a {
+  font-size: 13px;
+}
+#footer .container .gap .footer-1 a span {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-bottom: 1px solid #333;
+  border-right: 1px solid #333;
+  margin: 0 0 4px 3px;
+  transform: rotate(45deg);
+}
+#footer .container .gap .footer-1 :nth-child(5) {
+  font-weight: 600;
+}
+#footer .container .gap .footer-1 i {
+  padding: 0 20px;
+  color: #aaa;
+  font-size: 12px;
+  font-weight: 100;
+}
+#footer .container .gap .footer-2 {
+  display: flex;
+  justify-content: flex-start;
+  height: 166px;
+  padding: 30px 0;
+}
+#footer .container .gap .footer-2 .left {
+  width: 280px;
+}
+#footer .container .gap .footer-2 .left h4 {
+  font-weight: 600;
+  color: #000;
+  padding: 0 0 7px 0;
+}
+#footer .container .gap .footer-2 .left p {
+  font-size: 12px;
+  padding: 0 0 5px 0;
+}
+#footer .container .gap .footer-2 .left p a {
+  color: #4a95ff;
+  text-decoration: underline;
+}
+#footer .container .gap .footer-2 .middle {
+  width: 386px;
+  padding: 0 0 0 90px;
+}
+#footer .container .gap .footer-2 .middle h4 {
+  font-weight: 600;
+  color: #000;
+  padding: 0 0 7px 0;
+}
+#footer .container .gap .footer-2 .middle p {
+  font-size: 12px;
+  padding: 0 0 5px 0;
+}
+#footer .container .gap .footer-2 .middle p i {
+  color: #000;
+  padding: 0 5px;
+}
+#footer .container .gap .footer-2 .middle :nth-child(5) a {
+  color: #4a95ff;
+  text-decoration: underline;
+}
+#footer .container .gap .footer-2 .right {
+  width: 406px;
+  padding: 0 0 0 90px;
+}
+#footer .container .gap .footer-2 .right h4 {
+  font-weight: 600;
+  color: #000;
+  padding: 0 0 7px 0;
+}
+#footer .container .gap .footer-2 .right p {
+  font-size: 12px;
+  padding: 0 0 5px 0;
+}
+#footer .container .gap .footer-2 .right p i {
+  color: #000;
+  padding: 0 5px;
+}
+#footer .container .gap .footer-3 {
+  height: 120px;
+  padding: 0 0 50px 0;
+}
+#footer .container .gap .footer-3 p {
+  font-size: 12px;
+  padding: 0 0 6px 0;
+  color: #aaa;
+}

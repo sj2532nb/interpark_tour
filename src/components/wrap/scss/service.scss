@@ -1,0 +1,157 @@
+#service{
+    width: 100%;
+    >.container{
+        width: 100%;
+        max-width: 980px;
+        margin: 0 auto;
+        >.gap{
+            width: 100%;
+            margin: 25px 0 0 0;
+            padding: 0 0 70px 0;
+            >.content{
+                width: 100%;
+                display: flex;
+                justify-content: left;
+                .left{
+                    width: 190px;
+                    .left-top{
+                        width: 180px;
+                        border-bottom: 1px solid #c3c3c3;
+                        a{
+                            img{
+                                width: auto;
+                            }
+                        }
+                        div{
+                            padding: 0 0 8px 0;
+                            background: url(../../../../public/img/service/leftBg_1.gif) repeat-y;
+                            ul{
+                                width: 100%;
+                                margin: 0 0 0 10px;
+                                li{
+                                    width: 100%;
+                                    padding: 0 0 8px 15px;
+                                    background: url(../../../../public/img/service/leftBulRec.gif) no-repeat 2px 2px;
+                                    &.on{
+                                        background: url(../../../../public/img/service/leftBulRecOn.gif) no-repeat 2px 2px;
+                                    }
+                                    a{
+                                        line-height: 110%;
+                                        vertical-align: top;
+                                        img{
+                                            width: auto;
+                                        }
+                                    }
+                                }
+                                &:last-child{
+                                    li{
+                                        padding: 0 0 2px 15px;
+                                    }
+                                }
+                            }
+                            p{
+                                width: 158px;
+                                padding: 3px 15px;
+                                margin: 0 0 5px 10px;
+                                background: url(../../../../public//img/service/leftBulTri.gif) no-repeat 5px 45%;
+                                border-bottom: 1px solid #d9d9d9;
+                                img{
+                                    width: auto;
+                                }
+                            }
+                        }
+                    }
+                    .left-middle{
+                        width: 100%;
+                        padding: 5px 0 0 0;
+                        a{
+                            img{
+                                width: 180px;
+                                height: 40px;
+                            }
+                        }
+                    }
+                    .left-bottom{
+                        width: 180px;
+                        margin: 5px 0 0 0;
+                        padding: 20px 15px;
+                        border: 1px solid #c2c2c2;
+                        background: #f8f8f8;
+                        span{
+                            display: block;
+                            width: 100%;
+                            padding: 0 0 10px 0;
+                            border-bottom: 1px solid #e5e5e5;
+                            h3{
+                                font-size: 12px;
+                                color: #333;
+                                font-weight: 700;
+                                line-height: 120%;
+                            }
+                            a{
+                                color: #268e77;
+                                font-size: 20px;
+                                line-height: 27px;
+                                font-weight: 700;
+                            }
+                        }
+                        ul{
+                            padding: 10px 0 15px 0;
+                            border-bottom: 1px solid #e5e5e5;
+                            &:last-child{
+                                padding: 10px 0 5px 0;
+                                border: 0;
+                            }
+                            li{
+                                margin: 5px 0;
+                                font-size: 12px;
+                                color: #666;
+                                line-height: 120%;
+                                &:last-child{
+                                    margin: 15px 0 5px 0;
+                                }
+                            }
+                        }
+                    }
+                }
+                .center{
+                    width: 700px;
+                }
+                .right{
+                    width: 80px;
+                    margin: 32px 0 0 10px;
+                    ul{
+                        width: 100%;
+                        border: 1px solid #e5e5e5;
+                        li{
+                            width: 100%;
+                            border-bottom: 1px solid #e5e5e5;
+                            &:last-child{
+                                border: 0;
+                            }
+                            a{
+                                img{
+                                    width: auto;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .banner{
+        width: 100%;
+        max-width: 1903px;
+        margin: 0 auto;
+        background: #2e68fa;
+        text-align: center;
+        a{
+            width: 100%;
+            
+            img{
+                width: auto;
+            }
+        }
+    }
+}

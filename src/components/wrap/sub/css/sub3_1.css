@@ -1,0 +1,41 @@
+#sub3_1 {
+  width: 100%;
+  background: url(../../../../../public/img/sub3/230421002_bg.jpg) no-repeat 50% 0;
+  background-size: cover;
+}
+#sub3_1 .container {
+  width: 100%;
+  max-width: 1903px;
+  height: 900px;
+  margin: 0 auto;
+}
+#sub3_1 .container .gap {
+  width: 100%;
+}
+#sub3_1 .container .gap .content {
+  width: 750px;
+  margin: 0 auto;
+  position: relative;
+}
+#sub3_1 .container .gap .content img {
+  width: auto;
+}
+#sub3_1 .container .gap .content .left-link {
+  position: absolute;
+  top: 55px;
+  left: 30px;
+  display: block;
+  width: 140px;
+  height: 140px;
+}
+#sub3_1 .container .gap .content .right-link {
+  position: absolute;
+  top: 34px;
+  right: -100px;
+  display: block;
+  width: 68px;
+  height: 68px;
+  overflow: hidden;
+  margin: 0 10px 5px 0;
+  background: url(../../../../../public/img/sub3/icon_sns.png) no-repeat;
+}

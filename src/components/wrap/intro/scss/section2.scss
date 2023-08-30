@@ -1,0 +1,209 @@
+#intro{
+    #section2{
+        width: 100%;
+        .container{
+            width: 100%;
+            max-width: 1280px;
+            margin: 0 auto;
+            .gap{
+                width: 100%;
+                padding: 0 0 90px 0;
+                .title{
+                    width: 100%;
+                    margin: 0 0 20px 0;
+                    text-align: center;
+                    h2{
+                        color: #000;
+                        font-size: 27px;
+                        font-weight: 700;
+                        line-height: 42px;
+                        letter-spacing: -2px;
+                    }
+                }
+                .content{
+                    width: 100%;
+                    .tab-btn-box{
+                        width: 100%;
+                        text-align: center;
+                        margin: 0 0 20px 0;
+                        button{
+                            padding: 0 16px;
+                            border: 1px solid #e8e8e8;
+                            color: #000;
+                            background: #fff;
+                            height: 39px;
+                            border-radius: 99px;
+                            font-size: 15px;
+                            letter-spacing: -2px;
+                            margin: 0 4px;
+                            text-shadow: 25px 0 1px 0, -25px 0 1px 0;
+                            cursor: pointer;
+                            &.on{
+                                border: 1px solid #73afff;
+                                color: #1769ff;
+                                background: #e9f0fe;
+                            }
+                        }
+                    }
+                    .slide-box{
+                        width: 100%;
+                        position: relative;
+                        .slide-container{
+                            width: 100%;
+                            .slide-view{
+                                width: 100%;
+                                overflow: hidden;
+                                .slide-wrap{
+                                    width: ((1280px / 3) * 20) + 130px;
+                                    display: flex;
+                                    position: relative;
+                                    .slide{
+                                        width: (100% / 3);
+                                        margin: 0 20px 0 0;
+                                        border: 1px solid #e8e8e8;
+                                        border-radius: 12px;
+                                        overflow: hidden;
+                                        a{
+                                            figure{
+                                                width: 100%;
+                                                height: 240px;
+                                                img{
+                                                    width: 100%;
+                                                    height: 100%;
+                                                }
+                                            }
+                                            div{
+                                                width: 100%;
+                                                position: relative;
+                                                padding: 22px 20px 20px 20px;
+                                                i{
+                                                    position: absolute;
+                                                    top: -11px;
+                                                    left: 19px;
+                                                    display: inline-block;
+                                                    padding: 0 6px;
+                                                    background: #1769ff;
+                                                    color: #fff;
+                                                    border-radius: 4px;
+                                                    font-size: 11px;
+                                                    font-weight: 700;
+                                                    line-height: 24px;
+                                                    height: 24px;
+                                                    letter-spacing: -1px;
+                                                }
+                                                h3{
+                                                    font-size: 16px;
+                                                    color: #1769ff;
+                                                    font-weight: 700;
+                                                    line-height: 150%;
+                                                    letter-spacing: -1px;
+                                                }
+                                                h4{
+                                                    color: #000;
+                                                    font-size: 16px;
+                                                    line-height: 150%;
+                                                    letter-spacing: -1px;
+                                                }
+                                                em{
+                                                    color: #000;
+                                                    font-weight: 700;
+                                                    font-size: 21px;
+                                                    line-height: 150%;
+                                                }
+                                                span{
+                                                    color: #111;
+                                                    font-size: 16px;
+                                                    line-height: 150%;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        &.first{
+                            display: none;
+                            &.on{
+                                display: block;
+                            }
+                        }
+                        &.package{
+                            display: none;
+                            &.on{
+                                display: block;
+                            }
+                            .slide-container{
+                                .slide-wrap{
+                                    width: ((1280px / 3) * 17) + 110px;
+                                }
+                            }
+                        }
+                        &.domestic{
+                            display: none;
+                            &.on{
+                                display: block;
+                            }
+                            .slide-container{
+                                .slide-wrap{
+                                    width: ((1280px / 3) * 12) + 80px;
+                                }
+                            }
+                        }
+                        &.abroad{
+                            display: none;
+                            &.on{
+                                display: block;
+                            }
+                            .slide-container{
+                                .slide-wrap{
+                                    width: ((1280px / 3) * 12) + 80px;
+                                }
+                            }
+                        }
+                        .prev-btn{
+                            position: absolute;
+                            top: 30%;
+                            left: -23px;
+                            width: 48px;
+                            height: 48px;
+                            background: rgba(255, 255, 255, 0.9);
+                            border: 1px solid rgba(0, 0, 0, 0.1);
+                            border-radius: 50%;
+                            box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.13);
+                            &::after{
+                                content: '';
+                                position: absolute;
+                                top: 31%;
+                                left: 18px;
+                                width: 10px;
+                                height: 18px;
+                                background: url(../../../../../public/img/intro/slide_arrow.svg);
+                                transform: rotate(180deg);
+                            }
+                        }
+                        .next-btn{
+                            position: absolute;
+                            top: 30%;
+                            right: -23px;
+                            width: 48px;
+                            height: 48px;
+                            background: rgba(255, 255, 255, 0.9);
+                            border: 1px solid rgba(0, 0, 0, 0.1);
+                            border-radius: 50%;
+                            box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.13);
+                            &::after{
+                                content: '';
+                                position: absolute;
+                                top: 31%;
+                                right: 18px;
+                                width: 10px;
+                                height: 18px;
+                                background: url(../../../../../public/img/intro/slide_arrow.svg);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

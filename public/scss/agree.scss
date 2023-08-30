@@ -1,0 +1,159 @@
+#wrap{
+    #agree{
+        .container{
+            width: 500px;
+            margin: 0 auto;
+            padding: 40px 0 40px 0;
+            .gap{
+                width: 100%;
+                .content{
+                    width: 100%;
+                    form{
+                        width: 100%;
+                        >div{      
+                            width: 100%; 
+                            margin: 25px 0 0 0;
+                            color: #000;    
+                            letter-spacing: -0.5px;
+                            
+                            >label{
+                                width: 100%;
+                                font-size: 17px;
+                                font-weight: 700;
+                                input[type=checkbox]{
+                                    margin: 0 7px 0 0;
+                                    appearance: none;
+                                    width: 28px;
+                                    height: 28px;
+                                    border: 1px solid #ccc;
+                                    border-radius: 50%;                                            
+                                    background: url(../img/join/icon_check_off.png)no-repeat 50% 50%;
+                                    background-size: 100% auto;
+                                    &:checked{
+                                        background-image: url(../img/join/icon_check_on.png);
+                                        background-color: #1769ff;
+                                        border-color: #1769ff;
+
+                                    }
+                                }
+                            }
+                            h2{
+                                padding: 10px 0 0 0;
+                                font-size: 15px;
+                                font-weight: 700;
+                            }
+                            ul{
+                                width: 100%;
+                                li{
+                                    width: 100%;
+                                    label{
+                                        width: 100%;
+                                        display: flex;
+                                        align-items: center;
+                                        color: #666;
+                                        margin: 15px 0 0 0;
+                                        font-size: 15px;
+                                        line-height: 1.5;
+                                        input[type=checkbox]{
+                                            margin: 0 7px 0 0;
+                                            appearance: none;
+                                            width: 23px;
+                                            height: 23px;
+                                            border: 1px solid #ccc;
+                                            border-radius: 50%;                                            
+                                            background: url(../img/join/icon_check_off.png)no-repeat 50% 50%;
+                                            background-size: 100% auto;
+                                            &:checked{
+                                                background-image: url(../img/join/icon_check_on.png);
+                                                background-color: #1769ff;
+                                                border-color: #1769ff;
+        
+                                            }
+                                        }
+                                        img{
+                                            width: 15px;
+                                            height: 15px;
+                                        }
+                                    }
+                                    >div{
+                                        margin: 8px 0 0 21px;
+                                        h3{
+                                            font-size: 13px;
+                                            line-height: 1.5;
+                                            color: #999;
+                                            margin: 0 0 5px 0;
+                                            strong{
+                                                color: #dc941b;
+                                            }
+                                            img{
+                                                width: 15px;
+                                                height: 15px;
+                                            }
+                                        }
+                                        .sub-detail{
+                                            background: #f3f3f3;
+                                            padding: 15px 15px;
+                                            margin: 15px 5px 0 0;
+                                            border-radius: 10px;
+                                            display: none;
+                                            &.on{
+                                                display: block;
+                                            }
+                                            .sub-row1{
+                                                h4{
+                                                    font-size: 13px;
+                                                    line-height: 1.5;
+                                                    color: #666;
+                                                }
+                                            }
+                                            .sub-row2{
+                                                ul{
+                                                    display: flex;
+                                                    flex-flow: row wrap;
+                                                    margin: 0 0 20px 0;
+                                                    li{
+                                                        width: 50%;
+                                                    }
+                                                }
+                                            }
+                                            .sub-row3{
+                                                p{
+                                                    margin: 10px 0 0 0;
+                                                    font-size: 11px;
+                                                    line-height: 1.5;
+                                                    letter-spacing: -1px;
+                                                    color: #999;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            
+                        }
+                        .btn-box{
+                            text-align: center;
+                            margin: 45px 0 0 0;
+                            button{
+                                width: 500px;
+                                height: 50px;
+                                border: 0;
+                                border-radius: 10px;
+                                background: #ccc;
+                                color: #fff;
+                                font-size: 15px;
+                                font-weight: 700;
+                                pointer-events: none;
+                            &.on{
+                                    pointer-events: auto;
+                                    background-color: #333;        
+                                }
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

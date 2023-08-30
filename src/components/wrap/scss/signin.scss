@@ -1,0 +1,157 @@
+#wrap{
+    width: 100%;
+    #signin{
+        width: 100%;
+        .container{
+            width: 100%;
+            max-width: 500px;
+            margin: 0 auto;
+            .gap{
+                padding: 30px 30px 100px 30px;                
+                .content{
+                    width: 100%;
+                    .state{
+                        width: 100%;                                                
+                        display: flex; 
+                        position: relative;                                          
+                        a{
+                            display: block;
+                            width: 50%;
+                            height: 40px;
+                            border-bottom: 1px solid #ef3e42;
+                            background: #f0f0f0;
+                            font-size: 14px;
+                            color: #777;
+                            text-align: center;
+                            line-height: 40px;
+                            &.on{
+                                background: #fff;
+                                border-top: 1px solid #ef3e42;
+                                border-left: 1px solid #ef3e42;
+                                border-right: 1px solid #ef3e42;
+                                border-bottom: none;
+                                color: #ef3e42;
+                            }
+                        }
+
+                    }
+
+                    .form-box{
+                        width: 100%;
+                        display: none;
+                        &.on{
+                            display: block;
+                        }
+                        form{
+                            width: 100%;
+                            padding: 20px 0;
+                            &.off{
+                                display: none;
+                            }
+                            input{
+                                display: block;
+                                width: 100%;
+                                height: 40px;
+                                border: 1px solid #eee;
+                                padding-left: 10px;
+                                margin-bottom: 10px;
+                                outline: none;
+                                &::placeholder{
+                                    font-size: 14px;
+                                }
+    
+                            }
+                            button{
+                                display: block;
+                                width: 100%;
+                                height: 50px;
+                                border: 0;
+                                border-radius: 5px;
+                                background: #ef3e42;
+                                color: #fff;
+                                font-size: 16px;
+                                font-weight: 600;
+                                margin: 20px 0 10px 0;                      
+                            }
+                            .login{
+                                width: 100%;
+                                display: flex;   
+                                padding: 15px 0;                         
+                                > label{     
+                                    width: 100px;
+                                    line-height: 22px;                                                 
+                                    display: flex;                            
+                                    > input{
+                                        width: 22px;
+                                        height: 22px;
+                                        margin: 0 4px 0 0;
+                                    }
+                                }
+                            }
+                            p{
+                                font-size: 14px;
+                                color: #999;
+                                padding: 2px 0;
+                            }
+                            hr{
+                                margin: 12px 0;                     
+                                border: 1px solid #f0f0f0;
+                            }
+                            .search{
+                                a{
+                                    color: #000;
+                                }
+                                span{
+                                    padding: 0 10px;
+                                    color: #ccc;
+                                }
+                            }
+                            h5{
+                                font-size: 14px;
+                                padding: 0 0 20px 0;
+                                color: #000;
+                                i{
+                                    display: inline-block;
+                                    color: #ef3e42;
+                                    transform: translateY(-2px)
+                                }
+                            }
+                            .signin-hp{
+                                width: 100%;                
+                                display: flex;
+                                justify-content: space-between;
+                                input{
+                                    width: 274px;
+                                    
+                                }
+                                .right{
+                                    width: 134px;
+                                    height: 40px;
+                                    line-height: 40px;
+                                    margin: 0;                                
+                                    color: #666;
+                                    text-align: center;
+                                    font-size: 13px;
+                                    font-weight: 400;
+                                }
+                                > button{
+                                    border: 1px solid #ddd;
+                                    background: #f9f9f9;
+                                    border-radius: 0;
+                                }
+                            }
+                            h4{                            
+                                line-height: 20px;
+                            }                        
+    
+                        }
+                    }
+
+                    
+
+
+                }
+            }
+        }
+    }
+}

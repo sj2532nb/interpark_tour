@@ -1,0 +1,904 @@
+#Main1 {
+  width: 100%;
+}
+#Main1 #section1 {
+  width: 100%;
+  position: relative;
+}
+#Main1 #section1 .container {
+  width: 100%;
+  padding-bottom: 32px;
+}
+#Main1 #section1 .container .gap {
+  width: 100%;
+  padding: 0;
+}
+#Main1 #section1 .container .gap .back-image {
+  width: 100%;
+  height: 249px;
+  background: url(../img/main1/mainVisualPalmtree.jpg);
+  background-size: cover;
+}
+#Main1 #section1 .container .gap .back-image .back-gap {
+  width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  padding: 50px 0 13px 0;
+}
+#Main1 #section1 .container .gap .back-image .back-gap h4 {
+  text-align: right;
+  height: 30px;
+  line-height: 30px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #000;
+}
+#Main1 #section1 .container .gap .back-image .back-gap button {
+  width: 125px;
+  height: 30px;
+  border: 1px solid #000;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 12px;
+  font-weight: 600;
+  margin: 0 0 0 7px;
+}
+#Main1 #section1 .container .gap .back-image .back-gap button img {
+  transform: translate(3px, -1px);
+}
+#Main1 #section1 .container .gap .back-image .ticketing {
+  width: 1280px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 15px;
+}
+#Main1 #section1 .container .gap .back-image .ticketing .ticketing-gap {
+  border-radius: 15px;
+  box-shadow: 0 5px 5px #ccc;
+}
+#Main1 #section1 .container .gap .back-image .ticketing .ticketing-gap .up {
+  height: 75px;
+  line-height: 75px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+  padding: 0 10px;
+}
+#Main1 #section1 .container .gap .back-image .ticketing .ticketing-gap .up .btn button {
+  height: 40px;
+  border: 0;
+  border-radius: 20px;
+  background: #eee;
+  padding: 9px 20px;
+  margin: 0 6px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+}
+#Main1 #section1 .container .gap .back-image .ticketing .ticketing-gap .up .btn button:hover {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  background: #333;
+}
+#Main1 #section1 .container .gap .back-image .ticketing .ticketing-gap .up span {
+  color: #666;
+  font-size: 13px;
+}
+#Main1 #section1 .container .gap .back-image .ticketing .ticketing-gap .up span input {
+  border: 1px solid #666;
+}
+#Main1 #section1 .container .gap .back-image .ticketing .ticketing-gap .down {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 111px;
+  padding: 0 25px;
+}
+#Main1 #section1 .container .gap .back-image .ticketing .ticketing-gap .down .start-end {
+  display: flex;
+  justify-content: space-between;
+  width: 564px;
+}
+#Main1 #section1 .container .gap .back-image .ticketing .ticketing-gap .down .start-end .start {
+  padding: 0 42px 0 0;
+}
+#Main1 #section1 .container .gap .back-image .ticketing .ticketing-gap .down .start-end .start h4 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #999;
+  padding-bottom: 10px;
+}
+#Main1 #section1 .container .gap .back-image .ticketing .ticketing-gap .down .start-end .start a {
+  font-size: 22px;
+  font-weight: 700;
+  color: #999;
+}
+#Main1 #section1 .container .gap .back-image .ticketing .ticketing-gap .down .start-end .airplane {
+  position: relative;
+}
+#Main1 #section1 .container .gap .back-image .ticketing .ticketing-gap .down .start-end .airplane img {
+  position: absolute;
+}
+#Main1 #section1 .container .gap .back-image .ticketing .ticketing-gap .down .start-end .arrive {
+  padding: 0 42px 0 0;
+}
+#Main1 #section1 .container .gap .back-image .ticketing .ticketing-gap .down .start-end .arrive h4 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #999;
+  padding-bottom: 10px;
+}
+#Main1 #section1 .container .gap .back-image .ticketing .ticketing-gap .down .start-end .arrive a {
+  font-size: 22px;
+  font-weight: 700;
+  color: #999;
+}
+#Main1 #section1 .container .gap .back-image .ticketing .ticketing-gap .down .date {
+  position: relative;
+  width: 282px;
+  height: 100%;
+  padding: 30px 25px;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+}
+#Main1 #section1 .container .gap .back-image .ticketing .ticketing-gap .down .date h4 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #999;
+  padding-bottom: 10px;
+}
+#Main1 #section1 .container .gap .back-image .ticketing .ticketing-gap .down .date a {
+  font-size: 22px;
+  font-weight: 700;
+  color: #999;
+}
+#Main1 #section1 .container .gap .back-image .ticketing .ticketing-gap .down .people {
+  width: 252px;
+  padding: 0 0 0 30px;
+}
+#Main1 #section1 .container .gap .back-image .ticketing .ticketing-gap .down .people h4 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #999;
+  padding-bottom: 10px;
+}
+#Main1 #section1 .container .gap .back-image .ticketing .ticketing-gap .down .people a {
+  font-size: 22px;
+  font-weight: 700;
+  color: #000;
+}
+#Main1 #section1 .container .gap .back-image .ticketing .ticketing-gap .down .btn-box {
+  width: 132px;
+}
+#Main1 #section1 .container .gap .back-image .ticketing .ticketing-gap .down .btn-box button {
+  width: 100%;
+  height: 70px;
+  background: #f85358;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  border: 0;
+  border-radius: 13px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+#Main1 #section1 .container .gap .back-image .ticketing .ticketing-gap .down .btn-box button:hover {
+  background-color: #f1282f;
+}
+#Main1 #section2 {
+  width: 100%;
+}
+#Main1 #section2 .container {
+  width: 100%;
+}
+#Main1 #section2 .container .gap {
+  width: 1280px;
+  margin: 0 auto;
+}
+#Main1 #section2 .container .gap ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 58px;
+}
+#Main1 #section2 .container .gap ul li {
+  text-align: center;
+}
+#Main1 #section2 .container .gap ul li span {
+  display: block;
+  width: 77px;
+  height: 26px;
+  line-height: 26px;
+  border: 1px solid #ef3e43;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #ef3e43;
+  text-align: center;
+}
+#Main1 #section2 .container .gap ul li .white {
+  border: 1px solid #fff;
+}
+#Main1 #section2 .container .gap ul li img {
+  width: 68px;
+  height: 68px;
+  transition: all 0.3s;
+}
+#Main1 #section2 .container .gap ul li img:hover {
+  transform: scale(1.1);
+}
+#Main1 #section2 .container .gap ul li p {
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+  color: #000;
+}
+#Main1 #section3 {
+  width: 100%;
+}
+#Main1 #section3 .container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+#Main1 #section3 .container .gap {
+  width: 100%;
+}
+#Main1 #section3 .container .gap .title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 12px 0;
+}
+#Main1 #section3 .container .gap .title h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+}
+#Main1 #section3 .container .gap .title button {
+  border: 0;
+  background: #fff;
+  font-size: 13px;
+  color: #666;
+  font-weight: 400;
+  cursor: pointer;
+}
+#Main1 #section3 .container .gap .title button span {
+  margin: 0 4px 0 4px;
+  display: inline-block;
+  border: 1px solid #000;
+  border-color: transparent transparent transparent #999;
+  border-width: 5px 0 5px 5px;
+}
+#Main1 #section3 .container .gap .content {
+  width: 100%;
+  display: flex;
+}
+#Main1 #section3 .container .gap .content .left-box {
+  width: 810px;
+  position: relative;
+}
+#Main1 #section3 .container .gap .content .left-box .slide-container {
+  width: 100%;
+}
+#Main1 #section3 .container .gap .content .left-box .slide-container .slide-view {
+  width: 100%;
+  height: 420px;
+  overflow: hidden;
+  border-radius: 15px;
+}
+#Main1 #section3 .container .gap .content .left-box .slide-container .slide-view .slide-wrap {
+  width: 1200%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  margin: 0 0 0 -100%;
+}
+#Main1 #section3 .container .gap .content .left-box .slide-container .slide-view .slide-wrap .slide {
+  width: 100%;
+}
+#Main1 #section3 .container .gap .content .left-box .slide-container .slide-view .slide-wrap .slide a {
+  display: block;
+  width: 100%;
+}
+#Main1 #section3 .container .gap .content .left-box .slide-container .slide-view .slide-wrap .slide a img {
+  width: 100%;
+}
+#Main1 #section3 .container .gap .content .left-box .page-btn-box {
+  position: absolute;
+  bottom: 40px;
+  left: 50px;
+  display: flex;
+}
+#Main1 #section3 .container .gap .content .left-box .page-btn-box .page-btn {
+  display: block;
+  width: 25px;
+  height: 25px;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 50%;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+  padding: 5.5px 0;
+  margin: 0 0 0 7px;
+}
+#Main1 #section3 .container .gap .content .left-box .page-btn-box .page-btn:first-child {
+  margin: 0;
+}
+#Main1 #section3 .container .gap .content .left-box .page-btn-box .page-btn.on {
+  background: #000;
+}
+#Main1 #section3 .container .gap .content .right-box {
+  width: 450px;
+  margin: 0 0 0 20px;
+}
+#Main1 #section3 .container .gap .content .right-box ul {
+  width: 100%;
+}
+#Main1 #section3 .container .gap .content .right-box ul li {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 15px;
+}
+#Main1 #section3 .container .gap .content .right-box ul li:last-child {
+  margin: 20px 0 0 0;
+}
+#Main1 #section3 .container .gap .content .right-box ul li a {
+  display: block;
+  width: 100%;
+}
+#Main1 #section3 .container .gap .content .right-box ul li a img {
+  width: 100%;
+  height: auto;
+  margin: -10px 0 0 0;
+}
+#Main1 #section4 {
+  width: 100%;
+}
+#Main1 #section4 .container {
+  width: 100%;
+}
+#Main1 #section4 .container .gap {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 107px 0 0 0;
+}
+#Main1 #section4 .container .gap .title h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+}
+#Main1 #section4 .container .gap .title .btn-box {
+  display: flex;
+  justify-content: flex-end;
+}
+#Main1 #section4 .container .gap .title .btn-box button {
+  border: 0;
+  border-radius: 8px;
+  background: #eee;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 7px 10px;
+  margin: 0 5px;
+}
+#Main1 #section4 .container .gap .title .btn-box button.on {
+  background: #333;
+  color: #fff;
+  font-weight: 700;
+}
+#Main1 #section4 .container .gap .content {
+  width: 100%;
+  padding: 15px 0;
+}
+#Main1 #section4 .container .gap .content ul {
+  width: 100%;
+}
+#Main1 #section4 .container .gap .content ul li {
+  width: 100%;
+  display: none;
+  justify-content: space-between;
+}
+#Main1 #section4 .container .gap .content ul li.on {
+  display: flex;
+}
+#Main1 #section4 .container .gap .content ul li .tripcity-box a > figure {
+  border-radius: 8px;
+  overflow: hidden;
+}
+#Main1 #section4 .container .gap .content ul li .tripcity-box a > figure img {
+  width: 232px;
+  height: 232px;
+  transition: all 0.3s;
+}
+#Main1 #section4 .container .gap .content ul li .tripcity-box a > figure img:hover {
+  transform: scale(1.1);
+}
+#Main1 #section4 .container .gap .content ul li .tripcity-box a h3 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #000;
+  padding-top: 20px;
+}
+#Main1 #section4 .container .gap .content ul li .tripcity-box a h5 {
+  font-size: 14px;
+  color: #000;
+  padding-top: 10px;
+}
+#Main1 #section4 .container .gap .content ul li .tripcity-box a h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+  padding-top: 30px;
+}
+#Main1 #section4 .container .gap p {
+  text-align: center;
+  padding: 30px 0;
+  font-size: 14px;
+  font-weight: 700;
+}
+#Main1 #section5 {
+  width: 100%;
+}
+#Main1 #section5 .container {
+  width: 100%;
+}
+#Main1 #section5 .container .gap {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 107px 0 0 0;
+}
+#Main1 #section5 .container .gap .title {
+  width: 100%;
+  position: relative;
+}
+#Main1 #section5 .container .gap .title .btn-box {
+  width: 100%;
+}
+#Main1 #section5 .container .gap .title .btn-box ul {
+  width: 100%;
+}
+#Main1 #section5 .container .gap .title .btn-box ul li {
+  width: 100%;
+  display: none;
+  align-items: center;
+}
+#Main1 #section5 .container .gap .title .btn-box ul li.on {
+  display: block;
+}
+#Main1 #section5 .container .gap .title .btn-box ul li span {
+  margin: 0 0 0 10px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+}
+#Main1 #section5 .container .gap .title .btn-box ul li button {
+  width: 90px;
+  height: 40.4px;
+  background: #333;
+  color: #fff;
+  border: 0;
+  border-radius: 20px;
+  padding: 7px 15xp 9px 0;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+#Main1 #section5 .container .gap .title .btn-box ul li button img {
+  transform: translateY(-3px);
+}
+#Main1 #section5 .container .gap .title .btn-box ul li button.on img {
+  transform: translateY(-3px) rotate(-180deg);
+}
+#Main1 #section5 .container .gap .title .select-area {
+  position: absolute;
+  z-index: 2;
+  top: 50px;
+  transition: all 0.2s;
+  opacity: 0;
+}
+#Main1 #section5 .container .gap .title .select-area.on {
+  opacity: 1;
+}
+#Main1 #section5 .container .gap .title .select-area ul {
+  width: 140px;
+  display: flex;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 1px 1px 5px 0;
+}
+#Main1 #section5 .container .gap .title .select-area ul li {
+  width: 50%;
+  border-right: 2px solid #ddd;
+  text-align: center;
+  padding: 15px 0;
+  background: #fff;
+  color: #333;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+#Main1 #section5 .container .gap .title .select-area ul li:nth-child(2) {
+  border-right: none;
+}
+#Main1 #section5 .container .gap .content {
+  width: 100%;
+  padding: 15px 0;
+}
+#Main1 #section5 .container .gap .content ul {
+  width: 100%;
+}
+#Main1 #section5 .container .gap .content ul li {
+  width: 100%;
+  display: none;
+  justify-content: space-between;
+}
+#Main1 #section5 .container .gap .content ul li.on {
+  display: flex;
+}
+#Main1 #section5 .container .gap .content ul li .tripcity-box a figure {
+  overflow: hidden;
+  border-radius: 8px;
+}
+#Main1 #section5 .container .gap .content ul li .tripcity-box a figure img {
+  width: 232px;
+  height: 232px;
+  transition: all 0.3s;
+}
+#Main1 #section5 .container .gap .content ul li .tripcity-box a figure img:hover {
+  transform: scale(1.1);
+}
+#Main1 #section5 .container .gap .content ul li .tripcity-box a h3 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #000;
+  padding-top: 20px;
+}
+#Main1 #section5 .container .gap .content ul li .tripcity-box a h5 {
+  font-size: 14px;
+  color: #000;
+  padding-top: 10px;
+}
+#Main1 #section5 .container .gap .content ul li .tripcity-box a h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+  padding-top: 30px;
+}
+#Main1 #section6 {
+  width: 100%;
+}
+#Main1 #section6 .container {
+  width: 100%;
+}
+#Main1 #section6 .container .gap {
+  position: relative;
+  width: 1280px;
+  margin: 0 auto;
+  padding: 107px 0 0 0;
+}
+#Main1 #section6 .container .gap .title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#Main1 #section6 .container .gap .title h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+}
+#Main1 #section6 .container .gap .title .all-view {
+  display: flex;
+  align-items: center;
+}
+#Main1 #section6 .container .gap .title .all-view .page-count-box {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin: 0 10px 0 0;
+  font-weight: 700;
+  color: #999;
+}
+#Main1 #section6 .container .gap .title .all-view button {
+  border: 0;
+  background: #fff;
+  font-size: 13px;
+  color: #666;
+  font-weight: 400;
+  cursor: pointer;
+}
+#Main1 #section6 .container .gap .title .all-view button > span {
+  margin: 0 4px 0 4px;
+  display: inline-block;
+  border: 1px solid #000;
+  border-color: transparent transparent transparent #999;
+  border-width: 5px 0 5px 5px;
+}
+#Main1 #section6 .container .gap .content {
+  width: 100%;
+  position: relative;
+}
+#Main1 #section6 .container .gap .content .slide-container {
+  width: 100%;
+}
+#Main1 #section6 .container .gap .content .slide-container .slide-view {
+  width: 100%;
+  overflow: hidden;
+}
+#Main1 #section6 .container .gap .content .slide-container .slide-view .slide-wrap {
+  width: 1700%;
+  display: flex;
+  position: relative;
+}
+#Main1 #section6 .container .gap .content .slide-container .slide-view .slide-wrap .slide {
+  width: 50%;
+}
+#Main1 #section6 .container .gap .content .slide-container .slide-view .slide-wrap .slide img {
+  width: 624px;
+  height: 306px;
+  background-size: cover;
+  border-radius: 15px;
+}
+#Main1 #section6 .container .gap .left-arrow {
+  position: absolute;
+  left: -85px;
+  top: 55%;
+}
+#Main1 #section6 .container .gap .right-arrow {
+  position: absolute;
+  right: -85px;
+  top: 55%;
+  transform: rotate(180deg);
+}
+#Main1 #section7 {
+  width: 100%;
+}
+#Main1 #section7 .container {
+  width: 100%;
+}
+#Main1 #section7 .container .gap {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 107px 0 0 0;
+}
+#Main1 #section7 .container .gap .title {
+  width: 100%;
+}
+#Main1 #section7 .container .gap .title h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+}
+#Main1 #section7 .container .gap .title a {
+  display: block;
+  width: 100%;
+  text-align: right;
+  font-size: 14px;
+  padding: 0 0 20px 0;
+  background: #fff;
+  height: 25px;
+}
+#Main1 #section7 .container .gap .title a::before {
+  display: none;
+}
+#Main1 #section7 .container .gap .content {
+  width: 100%;
+}
+#Main1 #section7 .container .gap .content button {
+  width: 298px;
+  height: 119px;
+  background: #26cec1;
+  border: 0;
+  border-radius: 15px;
+  margin: 0 28px 0 0;
+}
+#Main1 #section7 .container .gap .content button:last-child {
+  margin: 0;
+}
+#Main1 #section7 .container .gap .content button h5 {
+  font-size: 14px;
+  color: #fff;
+}
+#Main1 #section7 .container .gap .content button h2 {
+  position: relative;
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+}
+#Main1 #section7 .container .gap .content button h2 span {
+  display: inline-block;
+  position: absolute;
+  top: 32%;
+  right: 20px;
+  width: 15px;
+  height: 15px;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  transform: rotate(45deg);
+}
+#Main1 #section7 .container .gap .content button h6 {
+  font-size: 12px;
+  color: #fff;
+}
+#Main1 #section8 {
+  width: 100%;
+}
+#Main1 #section8 .container {
+  width: 100%;
+}
+#Main1 #section8 .container .gap {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 107px 0 0 0;
+}
+#Main1 #section8 .container .gap .title {
+  width: 100%;
+}
+#Main1 #section8 .container .gap .title h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+  padding-bottom: 20px;
+}
+#Main1 #section8 .container .gap .content {
+  width: 100%;
+}
+#Main1 #section8 .container .gap .content .customer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 45px;
+}
+#Main1 #section8 .container .gap .content .customer .box1 {
+  width: 298px;
+  height: 230px;
+  padding: 25px 30px;
+  background: #f3f3f3;
+  border: 0;
+  border-radius: 15px;
+}
+#Main1 #section8 .container .gap .content .customer .box1 .b1 {
+  width: 100%;
+  padding-bottom: 25px;
+}
+#Main1 #section8 .container .gap .content .customer .box1 .b1 h5 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #000;
+  padding-bottom: 10px;
+}
+#Main1 #section8 .container .gap .content .customer .box1 .b1 h6 {
+  font-size: 16px;
+  color: #000;
+  padding-bottom: 10px;
+}
+#Main1 #section8 .container .gap .content .customer .box2 {
+  width: 358px;
+  height: 230px;
+}
+#Main1 #section8 .container .gap .content .customer .box2 .question {
+  width: 298px;
+  height: 105px;
+  padding: 13px 20px 0 20px;
+  background: #f3f3f3;
+  border: 0;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+#Main1 #section8 .container .gap .content .customer .box2 .question:nth-child(2) {
+  padding: 21px 20px;
+}
+#Main1 #section8 .container .gap .content .customer .box2 .question .butler {
+  width: 60px;
+  height: 92px;
+}
+#Main1 #section8 .container .gap .content .customer .box2 .question .img-que {
+  width: 60px;
+  height: 62px;
+}
+#Main1 #section8 .container .gap .content .customer .box2 .question .text h5 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #000;
+  padding-bottom: 10px;
+}
+#Main1 #section8 .container .gap .content .customer .box2 .question .text h6 {
+  font-size: 14px;
+  color: #000;
+  padding-bottom: 10px;
+}
+#Main1 #section8 .container .gap .content .customer .box2 .question .txt-que {
+  padding-top: 8px;
+}
+#Main1 #section8 .container .gap .content .customer .box2 .question span {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-top: 2px solid #999;
+  border-right: 2px solid #999;
+  margin-top: 20px;
+  transform: rotate(45deg);
+}
+#Main1 #section8 .container .gap .content .customer .box2 .question .butler-span {
+  margin-top: 30px;
+}
+#Main1 #section8 .container .gap .content .customer .box3 {
+  width: 594px;
+  height: 230px;
+  display: flex;
+  justify-content: space-between;
+}
+#Main1 #section8 .container .gap .content .customer .box3 > .reservation1 {
+  width: 198px;
+}
+#Main1 #section8 .container .gap .content .customer .box3 > .reservation1 h5 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #000;
+  padding-bottom: 20px;
+}
+#Main1 #section8 .container .gap .content .customer .box3 > .reservation1 > a {
+  display: block;
+  font-size: 14px;
+  color: #000;
+  padding-bottom: 18px;
+}
+#Main1 #section8 .container .gap .content .customer .box3 > .reservation2 {
+  width: 198px;
+}
+#Main1 #section8 .container .gap .content .customer .box3 > .reservation2 > a {
+  display: block;
+  font-size: 14px;
+  color: #000;
+  padding-bottom: 18px;
+}
+#Main1 #section8 .container .gap .content .customer .box3 > .reservation2 > a:first-child {
+  padding-top: 36px;
+}
+#Main1 #section8 .container .gap .content .customer .box3 .group {
+  width: 198px;
+}
+#Main1 #section8 .container .gap .content .customer .box3 .group h5 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #000;
+  padding-bottom: 20px;
+}
+#Main1 #section8 .container .gap .content .customer .box3 .group a {
+  display: block;
+  font-size: 14px;
+  color: #000;
+  padding-bottom: 18px;
+}
+#Main1 #section8 .container .gap .content p {
+  height: 26px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  color: #666;
+}
+#Main1 #section8 .container .gap .content p a {
+  display: inline-block;
+  text-decoration: underline;
+  height: 26px;
+  line-height: 26px;
+}
+#Main1 #section9 {
+  width: 100%;
+  padding: 107px 0 0 0;
+}
+#Main1 #section9 .bottom-banner {
+  width: 100%;
+  height: 164px;
+  background: #2e68fa;
+}
+#Main1 #section9 .bottom-banner img {
+  display: block;
+  margin: 0 auto;
+}

@@ -1,0 +1,64 @@
+#intro #section8 {
+  width: 100%;
+}
+#intro #section8 .container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+#intro #section8 .container .gap {
+  width: 100%;
+  padding: 0 0 90px 0;
+}
+#intro #section8 .container .gap .title {
+  width: 100%;
+  margin: 0 0 20px 0;
+  text-align: center;
+}
+#intro #section8 .container .gap .title h2 {
+  color: #000;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: -1px;
+}
+#intro #section8 .container .gap .content {
+  width: 100%;
+}
+#intro #section8 .container .gap .content ul {
+  width: 1304px;
+  display: flex;
+}
+#intro #section8 .container .gap .content ul li {
+  width: 25%;
+  margin: 0 24px 0 0;
+  border: 1px solid #e8e8e8;
+  border-radius: 12px;
+  padding: 16px;
+}
+#intro #section8 .container .gap .content ul li a div {
+  width: 100%;
+}
+#intro #section8 .container .gap .content ul li a div h4 {
+  width: 100%;
+  font-size: 17px;
+  font-weight: 700;
+  color: #000;
+  line-height: 150%;
+  letter-spacing: -2px;
+}
+#intro #section8 .container .gap .content ul li a div span {
+  width: 100%;
+  margin: 8px 0 0 0;
+  color: #999;
+  font-size: 13px;
+  line-height: 150%;
+  letter-spacing: -1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#intro #section8 .container .gap .content ul li a div span img {
+  width: 50px;
+  height: 50px;
+}

@@ -1,0 +1,30 @@
+#sub3_4{
+    width: 100%;
+    background: url(../../../../../public/img/sub3/1b2ef047eb844c5f83f4980611cdb856.jpg) no-repeat 50% 0;
+    background-size: cover;
+    .container{
+        width: 100%;
+        max-width: 1903px;
+        height: 550px;
+        margin: 0 auto;
+        .gap{
+            width: 100%;
+            .content{
+                width: 750px;
+                margin: 0 auto;
+                position: relative;
+                .right-link{
+                    position: absolute;
+                    top: 34px;
+                    right: -100px;
+                    display: block;
+                    width: 68px;
+                    height: 68px;
+                    overflow: hidden;
+                    margin: 0 10px 5px 0;
+                    background: url(../../../../../public/img/sub3/icon_sns.png) no-repeat;
+                }
+            }
+        }
+    }
+}

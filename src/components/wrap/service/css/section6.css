@@ -1,0 +1,84 @@
+#service #section6 {
+  width: 100%;
+}
+#service #section6 .container {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+#service #section6 .container .gap {
+  width: 100%;
+  margin: 0 0 -60px 0;
+}
+#service #section6 .container .gap .content {
+  width: 100%;
+}
+#service #section6 .container .gap .content .top-box {
+  width: 100%;
+  padding: 10px 0 0 0;
+  margin: 0 0 11px 0;
+}
+#service #section6 .container .gap .content .top-box h3 {
+  width: 100%;
+  background: url(../../../../../public/img/service/bulRightgreen.gif) no-repeat 0 0;
+  padding: 0 0 0 21px;
+  margin: 0 0 10px 0;
+}
+#service #section6 .container .gap .content .top-box h3 img {
+  width: auto;
+}
+#service #section6 .container .gap .content .top-box img {
+  width: auto;
+}
+#service #section6 .container .gap .content .middle-box {
+  width: 100%;
+  margin: 15px 0 0 0;
+}
+#service #section6 .container .gap .content .middle-box h4 {
+  width: 100%;
+  background: url(../../../../../public/img/service/bulRightgreen02.gif) no-repeat 2px 1px;
+  padding: 0 0 0 20px;
+}
+#service #section6 .container .gap .content .middle-box h4 img {
+  width: auto;
+  margin: -1px 0 0 0;
+}
+#service #section6 .container .gap .content .middle-box figure {
+  width: 100%;
+  margin: 10px 0 0 0;
+  position: relative;
+}
+#service #section6 .container .gap .content .middle-box figure img {
+  width: auto;
+}
+#service #section6 .container .gap .content .middle-box figure .link1 {
+  position: absolute;
+  top: 49px;
+  left: 25px;
+  display: block;
+  width: 200px;
+  height: 95px;
+}
+#service #section6 .container .gap .content .middle-box figure .link2 {
+  position: absolute;
+  top: 49px;
+  left: 37%;
+  display: block;
+  width: 200px;
+  height: 95px;
+}
+#service #section6 .container .gap .content .middle-box figure .link3 {
+  position: absolute;
+  bottom: 15px;
+  right: 24px;
+  display: block;
+  width: 67px;
+  height: 23px;
+}
+#service #section6 .container .gap .content .bottom-box {
+  width: 100%;
+  margin: 20px 0 0 0;
+}
+#service #section6 .container .gap .content .bottom-box img {
+  width: auto;
+}

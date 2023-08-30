@@ -1,0 +1,81 @@
+#wrap #modal {
+  position: absolute;
+  width: 100%;
+}
+#wrap #modal .container {
+  width: 100%;
+  margin: 0 auto;
+}
+#wrap #modal .container .gap {
+  width: 100%;
+}
+#wrap #modal .container .gap .content {
+  width: 100%;
+}
+#wrap #modal .container .gap .content .allview {
+  position: fixed;
+  width: 1000px;
+  height: 600px;
+  z-index: 5;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 3px 3px 10px;
+  background: #fff;
+}
+#wrap #modal .container .gap .content .allview .modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28px 16px 20px 24px;
+}
+#wrap #modal .container .gap .content .allview .modal-header h2 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #000;
+}
+#wrap #modal .container .gap .content .allview .modal-header button {
+  border: 0;
+  width: 36px;
+  height: 36px;
+  background: url(../img/sub8/icon_close_black.svg) no-repeat 50%;
+}
+#wrap #modal .container .gap .content .allview .modal-main {
+  width: 100%;
+  height: 490px;
+}
+#wrap #modal .container .gap .content .allview .modal-main ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0 0 0 24px;
+  overflow: hidden;
+  overflow-y: auto;
+}
+#wrap #modal .container .gap .content .allview .modal-main ul::-webkit-scrollbar {
+  width: 7px;
+}
+#wrap #modal .container .gap .content .allview .modal-main ul::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+#wrap #modal .container .gap .content .allview .modal-main ul::-webkit-scrollbar-thumb {
+  background-color: #bbb;
+  border-radius: 10px;
+}
+#wrap #modal .container .gap .content .allview .modal-main ul li {
+  width: 304px;
+  height: 165px;
+  margin: 0 16px 16px 0;
+  border-radius: 12px;
+  overflow: hidden;
+}
+#wrap #modal .container .gap .content .allview .modal-main ul li img {
+  width: 100%;
+  transition: all 0.3s;
+}
+#wrap #modal .container .gap .content .allview .modal-main ul li img:hover {
+  transform: scale(1.1);
+}

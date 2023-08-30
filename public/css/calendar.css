@@ -1,0 +1,121 @@
+#wrap {
+  width: 100%;
+}
+#wrap .dal {
+  position: absolute;
+  z-index: 3;
+  top: 0;
+  right: 0;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 1px 1px 10px 0;
+  padding: 25px;
+}
+#wrap .dal .dal1 {
+  text-align: center;
+}
+#wrap .dal .dal1 .dal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 15px 0;
+  padding: 0 12px;
+}
+#wrap .dal .dal1 .dal-header > h1 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+}
+#wrap .dal .dal1 .dal-header button {
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+#wrap .dal .dal1 table {
+  border-collapse: collapse;
+  margin: 0 0 5px 0;
+}
+#wrap .dal .dal1 table th, #wrap .dal .dal1 table td {
+  padding: 12px;
+  text-align: center;
+  cursor: pointer;
+}
+#wrap .dal .dal1 table tbody tr td {
+  font-size: 18px;
+  font-weight: 700;
+}
+#wrap .dal .dal1 table tbody tr td:nth-child(1) {
+  color: red;
+}
+#wrap .dal .dal1 table tbody tr td:nth-child(1).date-empty {
+  color: #ccc;
+}
+#wrap .dal .dal1 table tbody tr td.on {
+  position: relative;
+  background: red;
+  color: #fff;
+  border-radius: 50%;
+}
+#wrap .dal .dal1 table tbody tr td.on::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 42px;
+  background: #ffbec0;
+}
+#wrap .dal .dal1 table tbody tr td.on2 {
+  background: #ffbec0;
+}
+#wrap .dal .dal1 table tbody tr td.big {
+  position: relative;
+  background: red;
+  color: #fff;
+  border-radius: 50%;
+}
+#wrap .dal .dal1 table tbody tr td.big::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 42px;
+  background: #ffbec0;
+}
+#wrap .dal .dal1 table tbody tr .date-empty {
+  pointer-events: none;
+  color: #ccc;
+}
+#wrap .dal .dal1 .dal-btn {
+  display: none;
+  align-items: center;
+  border: 0;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 12px;
+  color: #fff;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+#wrap .dal .dal1 .dal-btn #dateInput {
+  border: 0;
+  outline: 0;
+  transition: all 0.3s;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  cursor: pointer;
+}
+#wrap .dal .dal1 .dal-btn.on {
+  display: inline-flex;
+  background-color: #f5575f;
+}
+#wrap .dal .dal1 .dal-btn.on #dateInput {
+  background: #f5575f;
+  border: 0;
+}

@@ -1,0 +1,765 @@
+#wrap {
+  width: 100%;
+}
+#wrap .sub {
+  width: 100%;
+}
+#wrap .sub #section1 {
+  width: 100%;
+}
+#wrap .sub #section1 .container {
+  width: 100%;
+}
+#wrap .sub #section1 .container .gap {
+  width: 100%;
+}
+#wrap .sub #section1 .container .gap .content {
+  width: 100%;
+}
+#wrap .sub #section1 .container .gap .content .top-menu {
+  width: 100%;
+}
+#wrap .sub #section1 .container .gap .content .top-menu .btn-box {
+  width: 100%;
+  min-width: 1280px;
+  margin: 0 auto;
+  height: 202px;
+  padding: 56px 0 0 0;
+  background: url(../img/sub8/bg_search_top.jpg) no-repeat 50% 0;
+}
+#wrap .sub #section1 .container .gap .content .top-menu .btn-box .btn-container {
+  width: 1280px;
+  margin: 0 auto;
+}
+#wrap .sub #section1 .container .gap .content .top-menu .btn-box .btn-container .btns {
+  width: 100%;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 15px 0px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+#wrap .sub #section1 .container .gap .content .top-menu .btn-box .btn-container .btns > div {
+  border: 0;
+  background: #fff;
+  padding: 42px 0 42px 32px;
+  text-align: left;
+}
+#wrap .sub #section1 .container .gap .content .top-menu .btn-box .btn-container .btns > div .search-title {
+  display: block;
+  font-size: 17px;
+  font-weight: 700;
+  color: #999;
+  letter-spacing: -1px;
+  margin: 0 0 4px 0;
+  cursor: pointer;
+}
+#wrap .sub #section1 .container .gap .content .top-menu .btn-box .btn-container .btns > div .placeholder {
+  display: block;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #ccc;
+  letter-spacing: -2px;
+  cursor: pointer;
+}
+#wrap .sub #section1 .container .gap .content .top-menu .btn-box .btn-container .btns > div .input-text {
+  display: block;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #000;
+  letter-spacing: -2px;
+  cursor: pointer;
+}
+#wrap .sub #section1 .container .gap .content .top-menu .btn-box .btn-container .btns .btn1 {
+  width: 406px;
+}
+#wrap .sub #section1 .container .gap .content .top-menu .btn-box .btn-container .btns .btn2, #wrap .sub #section1 .container .gap .content .top-menu .btn-box .btn-container .btns .btn3 {
+  width: 326px;
+  border-left: 1px solid #eee;
+}
+#wrap .sub #section1 .container .gap .content .top-menu .btn-box .btn-container .btns .search-btn {
+  background: #fff;
+  width: 222px;
+  padding: 32px;
+}
+#wrap .sub #section1 .container .gap .content .top-menu .btn-box .btn-container .btns .search-btn button {
+  text-align: center;
+  width: 158px;
+  height: 80px;
+  background: #4a95ff;
+  border: 0;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+#wrap .sub #section1 .container .gap .content .top-menu .btn-box .btn-container .btns .search-btn button:hover {
+  background-color: #036bfd;
+}
+#wrap .sub #section1 .container .gap .content .top-menu .btn-box-sub3 {
+  background: url(../img/sub3/bg_search_top.svg) no-repeat 50% 0;
+}
+#wrap .sub #section1 .container .gap .content .top-menu .quick-menu {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 34px 0 60px 0;
+}
+#wrap .sub #section1 .container .gap .content .top-menu .quick-menu ul {
+  width: 100%;
+  padding: 0 64px;
+  display: flex;
+  justify-content: space-between;
+}
+#wrap .sub #section1 .container .gap .content .top-menu .quick-menu ul li {
+  position: relative;
+  width: 80px;
+}
+#wrap .sub #section1 .container .gap .content .top-menu .quick-menu ul li > a {
+  display: block;
+  margin: 29px 0 0 0;
+  width: 100%;
+  text-align: center;
+}
+#wrap .sub #section1 .container .gap .content .top-menu .quick-menu ul li > a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  padding: 3px 8px;
+  transform: translate(-50%);
+  white-space: nowrap;
+  color: #ef3e43;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: -1px;
+  border: 1px solid rgba(239, 62, 67, 0.6);
+  border-radius: 12px;
+}
+#wrap .sub #section1 .container .gap .content .top-menu .quick-menu ul li > a span::after {
+  content: "";
+  width: 6px;
+  height: 6px;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  border-top: 1px solid rgba(239, 62, 67, 0.6);
+  border-right: 1px solid rgba(239, 62, 67, 0.6);
+  transform: translatex(-50%) rotate(135deg);
+  background-color: #fff;
+}
+#wrap .sub #section1 .container .gap .content .top-menu .quick-menu ul li > a img {
+  width: 100%;
+  transition: all 0.3s;
+}
+#wrap .sub #section1 .container .gap .content .top-menu .quick-menu ul li > a img:hover {
+  transform: scale(1.2);
+}
+#wrap .sub #section1 .container .gap .content .top-menu .quick-menu ul li > a h4 {
+  margin: 5px 0 0 0;
+  font-size: 12px;
+  font-weight: 700;
+  color: #000;
+}
+#wrap .sub #section2 {
+  width: 100%;
+  margin: 0 0 60px 0;
+}
+#wrap .sub #section2 a {
+  display: flex;
+  position: relative;
+  width: 1280px;
+  padding: 16px 20px;
+  line-height: 1.5;
+  margin: 0 auto;
+  border: 1px solid #eee;
+  border-radius: 12px;
+}
+#wrap .sub #section2 a span {
+  color: #4a95ff;
+  border: 0.1rem solid #98c3ff;
+  border-radius: 4px;
+  padding: 0 4px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: -1.5px;
+  margin: 0 8px 0 0;
+}
+#wrap .sub #section2 a h3 {
+  font-size: 12px;
+  font-weight: 700;
+  color: #000;
+}
+#wrap .sub #section2 a img {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 12px;
+  height: 12px;
+}
+#wrap .sub .section2-sub3 {
+  display: none;
+}
+#wrap .sub #section3 {
+  width: 100%;
+  margin: 0 0 60px 0;
+  position: relative;
+}
+#wrap .sub #section3 .container {
+  width: 1280px;
+  margin: 0 auto;
+}
+#wrap .sub #section3 .container .gap {
+  width: 100%;
+}
+#wrap .sub #section3 .container .gap .title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 12px 0;
+}
+#wrap .sub #section3 .container .gap .title h2 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #000;
+}
+#wrap .sub #section3 .container .gap .title button {
+  border: 0;
+  background: #fff;
+  font-size: 13px;
+  color: #666;
+  font-weight: 400;
+  cursor: pointer;
+}
+#wrap .sub #section3 .container .gap .title button span {
+  margin: 0 4px 0 4px;
+  display: inline-block;
+  border: 1px solid #000;
+  border-color: transparent transparent transparent #999;
+  border-width: 5px 0 5px 5px;
+}
+#wrap .sub #section3 .container .gap .content {
+  width: 100%;
+}
+#wrap .sub #section3 .container .gap .content .event-slide-container {
+  width: 100%;
+}
+#wrap .sub #section3 .container .gap .content .event-slide-container .event-slide-view {
+  width: 100%;
+  overflow: hidden;
+}
+#wrap .sub #section3 .container .gap .content .event-slide-container .event-slide-view .event-slide-wrap {
+  width: 272%;
+  display: flex;
+  position: relative;
+}
+#wrap .sub #section3 .container .gap .content .event-slide-container .event-slide-view .event-slide-wrap li {
+  width: 34%;
+  border-radius: 12px;
+  overflow: hidden;
+  margin: 0 30px 0 0;
+}
+#wrap .sub #section3 .container .gap .content .event-slide-container .event-slide-view .event-slide-wrap li a {
+  display: block;
+  width: 100%;
+}
+#wrap .sub #section3 .container .gap .content .event-slide-container .event-slide-view .event-slide-wrap li a img {
+  width: 100%;
+  transition: all 0.3s;
+}
+#wrap .sub #section3 .container .gap .content .event-slide-container .event-slide-view .event-slide-wrap li a img:hover {
+  transform: scale(1.1);
+}
+#wrap .sub #section3 .left-arrow-btn {
+  background-color: #ddd;
+  position: absolute;
+  left: 12%;
+  top: 50%;
+  z-index: 2;
+  transform: translateY(-50%);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 10px 0px;
+  border-radius: 50%;
+  width: 50px;
+}
+#wrap .sub #section3 .left-arrow-btn img {
+  width: 100%;
+}
+#wrap .sub #section3 .right-arrow-btn {
+  position: absolute;
+  right: 12%;
+  top: 50%;
+  z-index: 2;
+  transform: translateY(-50%);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 10px 0px;
+  border-radius: 50%;
+  width: 50px;
+}
+#wrap .sub #section3 .right-arrow-btn img {
+  width: 100%;
+}
+#wrap .sub #section4 {
+  width: 100%;
+  margin: 0 0 60px 0;
+}
+#wrap .sub #section4 .container {
+  width: 1280px;
+  margin: 0 auto;
+}
+#wrap .sub #section4 .container .gap {
+  width: 100%;
+}
+#wrap .sub #section4 .container .gap .title {
+  width: 100%;
+  margin: 0 0 20px 0;
+}
+#wrap .sub #section4 .container .gap .title h2 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #000;
+}
+#wrap .sub #section4 .container .gap .content {
+  width: 100%;
+}
+#wrap .sub #section4 .container .gap .content .nav {
+  width: 100%;
+  margin: 0 0 40px 0;
+}
+#wrap .sub #section4 .container .gap .content .nav ul {
+  width: 100%;
+  display: flex;
+}
+#wrap .sub #section4 .container .gap .content .nav ul li {
+  width: 100%;
+  text-align: center;
+  padding: 16px 0 20px 0;
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 2px solid #000;
+}
+#wrap .sub #section4 .container .gap .content .nav ul li a {
+  display: block;
+  width: 100%;
+  font-size: 17px;
+  line-height: 1.5;
+  color: #666;
+}
+#wrap .sub #section4 .container .gap .content .nav ul li:nth-child(1) {
+  border-left: 1px solid #ccc;
+}
+#wrap .sub #section4 .container .gap .content .nav ul li.on {
+  border: 2px solid #000;
+  border-bottom: none;
+}
+#wrap .sub #section4 .container .gap .content .nav ul li.on a {
+  font-weight: 700;
+  color: #000;
+}
+#wrap .sub #section4 .container .gap .content .content-box > ul {
+  width: 100%;
+  display: none;
+}
+#wrap .sub #section4 .container .gap .content .content-box > ul.on {
+  display: flex;
+}
+#wrap .sub #section4 .container .gap .content .content-box > ul > li {
+  position: relative;
+  width: 25%;
+  margin: 0 30px 0 0;
+}
+#wrap .sub #section4 .container .gap .content .content-box > ul > li:last-child {
+  margin: 0;
+}
+#wrap .sub #section4 .container .gap .content .content-box > ul > li a {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+}
+#wrap .sub #section4 .container .gap .content .content-box > ul > li a .img-box {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  height: 180px;
+  border-radius: 12px;
+}
+#wrap .sub #section4 .container .gap .content .content-box > ul > li a .img-box img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s;
+}
+#wrap .sub #section4 .container .gap .content .content-box > ul > li a .img-box img:hover {
+  transform: translate(-50%, -50%) scale(1.1);
+}
+#wrap .sub #section4 .container .gap .content .content-box > ul > li a .text-box {
+  padding: 12px 4px 0 4px;
+}
+#wrap .sub #section4 .container .gap .content .content-box > ul > li a .text-box ul li h3 {
+  font-size: 15px;
+  color: #000;
+  font-weight: 700;
+}
+#wrap .sub #section4 .container .gap .content .content-box > ul > li a .text-box ul li span {
+  font-size: 13px;
+  font-weight: 400;
+  color: #666;
+}
+#wrap .sub #section4 .container .gap .content .content-box > ul > li a .text-box ul li strong {
+  font-size: 17px;
+  font-weight: 700;
+  color: #000;
+}
+#wrap .sub #section4 .container .gap .content .content-box > ul > li a .text-box ul li em {
+  font-size: 13px;
+}
+#wrap .sub #section4 .container .gap .content .content-box > ul > li a .text-box ul li:nth-child(2) {
+  margin: 4px 0 8px 0;
+}
+#wrap .sub #section4 .container .gap .content .content-box > ul > li button {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 22px;
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+#wrap .sub #section4 .container .gap .content .content-box > ul > li button img {
+  width: 100%;
+}
+#wrap .sub #section4 .container .gap .content .content-box > ul > li button img.heart-on {
+  display: none;
+}
+#wrap .sub #section4 .container .gap .content .content-box > ul > li button.on img.heart-off {
+  display: none;
+}
+#wrap .sub #section4 .container .gap .content .content-box > ul > li button.on img.heart-on {
+  display: block;
+}
+#wrap .sub #section5 {
+  width: 100%;
+  margin: 0 0 60px 0;
+  position: relative;
+}
+#wrap .sub #section5 .container {
+  width: 1280px;
+  margin: 0 auto;
+}
+#wrap .sub #section5 .container .gap {
+  width: 100%;
+}
+#wrap .sub #section5 .container .gap .title {
+  width: 100%;
+  margin: 0 0 20px 0;
+}
+#wrap .sub #section5 .container .gap .title h2 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #000;
+}
+#wrap .sub #section5 .container .gap .content {
+  width: 100%;
+}
+#wrap .sub #section5 .container .gap .content .event-slide-container {
+  width: 100%;
+}
+#wrap .sub #section5 .container .gap .content .event-slide-container .event-slide-view {
+  width: 100%;
+  overflow: hidden;
+}
+#wrap .sub #section5 .container .gap .content .event-slide-container .event-slide-view .event-slide-wrap {
+  width: 102%;
+  display: flex;
+  position: relative;
+}
+#wrap .sub #section5 .container .gap .content .event-slide-container .event-slide-view .event-slide-wrap li {
+  width: 17%;
+  border-radius: 12px;
+  overflow: hidden;
+  margin: 0 30px 0 0;
+}
+#wrap .sub #section5 .container .gap .content .event-slide-container .event-slide-view .event-slide-wrap li a {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 286px;
+  overflow: hidden;
+}
+#wrap .sub #section5 .container .gap .content .event-slide-container .event-slide-view .event-slide-wrap li a img {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100%;
+  transition: all 0.3s;
+}
+#wrap .sub #section5 .container .gap .content .event-slide-container .event-slide-view .event-slide-wrap li a img:hover {
+  transform: translate(-50%, -50%) scale(1.1);
+}
+#wrap .sub #section5 .container .gap .content .event-slide-container .event-slide-view .event-slide-wrap li a span {
+  position: absolute;
+  z-index: 3;
+  bottom: 10px;
+  left: 10px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  background: rgba(0, 0, 0, 0.1);
+}
+#wrap .sub #section5 .container .gap .content .event-slide-container .event-slide-view .event-slide-wrap-sub3 {
+  width: 270.4%;
+}
+#wrap .sub #section5 .container .gap .content .event-slide-container .event-slide-view .event-slide-wrap-sub3 > li {
+  width: 33.8%;
+  margin: 0 16px 0 0;
+  border-radius: 12px;
+}
+#wrap .sub #section5 .container .gap .content .event-slide-container .event-slide-view .event-slide-wrap-sub3 > li > a {
+  width: 100%;
+  height: 115px;
+}
+#wrap .sub #section5 .container .gap .content .event-slide-container .event-slide-view .event-slide-wrap-sub3 > li > a > img {
+  width: 100%;
+}
+#wrap .sub #section5 .left-arrow-btn {
+  position: absolute;
+  left: 12%;
+  top: 60%;
+  z-index: 2;
+  transform: translateY(-50%);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 10px 0px;
+  border-radius: 50%;
+  width: 50px;
+  pointer-events: none;
+}
+#wrap .sub #section5 .left-arrow-btn img {
+  width: 100%;
+}
+#wrap .sub #section5 .left-arrow-btn.on {
+  pointer-events: auto;
+  opacity: 1;
+}
+#wrap .sub #section5 .right-arrow-btn {
+  position: absolute;
+  right: 12%;
+  top: 60%;
+  z-index: 2;
+  transform: translateY(-50%);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 10px 0px;
+  border-radius: 50%;
+  width: 50px;
+  pointer-events: none;
+  opacity: 0;
+}
+#wrap .sub #section5 .right-arrow-btn img {
+  width: 100%;
+}
+#wrap .sub #section5 .right-arrow-btn.on {
+  pointer-events: auto;
+  opacity: 1;
+}
+#wrap #section6 {
+  width: 100%;
+  margin: 0 0 60px 0;
+}
+#wrap #section6 .container {
+  width: 1280px;
+  margin: 0 auto;
+}
+#wrap #section6 .container .gap {
+  width: 100%;
+}
+#wrap #section6 .container .gap .title {
+  width: 100%;
+  margin: 0 0 20px 0;
+}
+#wrap #section6 .container .gap .title h2 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #000;
+}
+#wrap #section6 .container .gap .content {
+  width: 100%;
+}
+#wrap #section6 .container .gap .content .nav {
+  width: 100%;
+  margin: 0 0 40px 0;
+}
+#wrap #section6 .container .gap .content .nav ul {
+  width: 100%;
+  display: flex;
+}
+#wrap #section6 .container .gap .content .nav ul li {
+  width: 100%;
+  text-align: center;
+  padding: 16px 0 20px 0;
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 2px solid #000;
+}
+#wrap #section6 .container .gap .content .nav ul li a {
+  display: block;
+  width: 100%;
+  font-size: 17px;
+  line-height: 1.5;
+  color: #666;
+}
+#wrap #section6 .container .gap .content .nav ul li:nth-child(1) {
+  border-left: 1px solid #ccc;
+}
+#wrap #section6 .container .gap .content .nav ul li.on {
+  border: 2px solid #000;
+  border-bottom: none;
+}
+#wrap #section6 .container .gap .content .nav ul li.on a {
+  font-weight: 700;
+  color: #000;
+}
+#wrap #section6 .container .gap .content .content-box > ul {
+  width: 100%;
+  display: none;
+}
+#wrap #section6 .container .gap .content .content-box > ul.on {
+  display: flex;
+}
+#wrap #section6 .container .gap .content .content-box > ul > li {
+  position: relative;
+  width: 25%;
+  margin: 0 30px 0 0;
+}
+#wrap #section6 .container .gap .content .content-box > ul > li:last-child {
+  margin: 0;
+}
+#wrap #section6 .container .gap .content .content-box > ul > li a .img-box {
+  overflow: hidden;
+  border-radius: 12px;
+  height: 180px;
+}
+#wrap #section6 .container .gap .content .content-box > ul > li a .img-box img {
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s;
+}
+#wrap #section6 .container .gap .content .content-box > ul > li a .img-box img:hover {
+  transform: scale(1.1);
+}
+#wrap #section6 .container .gap .content .content-box > ul > li a .text-box {
+  padding: 12px 4px 0 4px;
+}
+#wrap #section6 .container .gap .content .content-box > ul > li a .text-box ul li h3 {
+  font-size: 15px;
+  color: #000;
+  font-weight: 700;
+}
+#wrap #section6 .container .gap .content .content-box > ul > li a .text-box ul li span {
+  font-size: 13px;
+  font-weight: 400;
+  color: #666;
+}
+#wrap #section6 .container .gap .content .content-box > ul > li a .text-box ul li strong {
+  font-size: 17px;
+  font-weight: 700;
+  color: #000;
+}
+#wrap #section6 .container .gap .content .content-box > ul > li a .text-box ul li em {
+  font-size: 13px;
+}
+#wrap #section6 .container .gap .content .content-box > ul > li a .text-box ul li:nth-child(2) {
+  margin: 4px 0 8px 0;
+}
+#wrap #section6 .container .gap .content .content-box > ul > li button {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 22px;
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+#wrap #section6 .container .gap .content .content-box > ul > li button img {
+  width: 100%;
+}
+#wrap #section6 .container .gap .content .content-box > ul > li button img.heart-on {
+  display: none;
+}
+#wrap #section6 .container .gap .content .content-box > ul > li button.on img.heart-off {
+  display: none;
+}
+#wrap #section6 .container .gap .content .content-box > ul > li button.on img.heart-on {
+  display: block;
+}
+#wrap #section6 .container .gap .bottom {
+  width: 100%;
+  margin: 60px 0 0 0;
+  text-align: center;
+}
+#wrap #section6 .container .gap .bottom a {
+  display: block;
+  position: relative;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 12px 0;
+}
+#wrap #section6 .container .gap .bottom a h3 {
+  font-size: 15px;
+  color: #666;
+  line-height: 1.5;
+}
+#wrap #section6 .container .gap .bottom a h3 img {
+  width: 12px;
+  height: 12px;
+  margin: 0 0 2px 5px;
+}
+#wrap #section7 {
+  width: 100%;
+  margin: 0 0 60px 0;
+}
+#wrap #section7 .container {
+  width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+#wrap #section7 .container a {
+  display: flex;
+  position: relative;
+  background: #f8f8f8;
+  border-radius: 12px;
+  width: 299px;
+  height: 121px;
+  padding: 19px 24px;
+}
+#wrap #section7 .container a i {
+  margin: 9px 16px 0 0;
+}
+#wrap #section7 .container a ul li {
+  width: 100%;
+}
+#wrap #section7 .container a ul li h2 {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #000;
+}
+#wrap #section7 .container a ul li h3 {
+  font-size: 13px;
+  line-height: 1.5;
+}
+#wrap #section7 .container a::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 28px;
+  width: 15px;
+  height: 15px;
+  border-top: 2px solid #999;
+  border-right: 2px solid #999;
+  transform: translateY(-50%) rotate(45deg);
+}

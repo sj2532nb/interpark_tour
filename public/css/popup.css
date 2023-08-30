@@ -1,0 +1,39 @@
+#popup {
+  width: 100%;
+}
+#popup .title {
+  width: 100%;
+  text-align: center;
+  background: #aaa;
+}
+#popup .title h1 {
+  color: #fff;
+  font-size: 22px;
+  line-height: 50px;
+}
+#popup .content {
+  margin: 10px 10px 10px 20px;
+}
+#popup .content h2 {
+  font-size: 16px;
+  color: #333;
+  margin: 0 0 25px 0;
+  font-weight: 700;
+}
+#popup .content h3 {
+  font-size: 14px;
+  color: #000;
+  font-weight: 700;
+  line-height: 24px;
+}
+#popup .content h4 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #000;
+  line-height: 24px;
+}
+#popup .content p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #666;
+}

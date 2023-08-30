@@ -1,0 +1,145 @@
+#service {
+  width: 100%;
+}
+#service > .container {
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+}
+#service > .container > .gap {
+  width: 100%;
+  margin: 25px 0 0 0;
+  padding: 0 0 10px 0;
+}
+#service > .container > .gap > .content {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+}
+#service > .container > .gap > .content .left {
+  width: 190px;
+}
+#service > .container > .gap > .content .left .left-top {
+  width: 180px;
+  border-bottom: 1px solid #c3c3c3;
+}
+#service > .container > .gap > .content .left .left-top a img {
+  width: auto;
+}
+#service > .container > .gap > .content .left .left-top div {
+  padding: 0 0 8px 0;
+  background: url(../../../../public/img/service/leftBg_1.gif) repeat-y;
+}
+#service > .container > .gap > .content .left .left-top div ul {
+  width: 100%;
+  margin: 0 0 0 10px;
+}
+#service > .container > .gap > .content .left .left-top div ul li {
+  width: 100%;
+  padding: 0 0 8px 15px;
+  background: url(../../../../public/img/service/leftBulRec.gif) no-repeat 2px 2px;
+}
+#service > .container > .gap > .content .left .left-top div ul li a {
+  line-height: 110%;
+  vertical-align: top;
+}
+#service > .container > .gap > .content .left .left-top div ul li a img {
+  width: auto;
+}
+#service > .container > .gap > .content .left .left-top div ul:last-child li {
+  padding: 0 0 2px 15px;
+}
+#service > .container > .gap > .content .left .left-top div p {
+  width: 158px;
+  padding: 3px 15px;
+  margin: 0 0 5px 10px;
+  background: url(../../../../public//img/service/leftBulTri.gif) no-repeat 5px 45%;
+  border-bottom: 1px solid #d9d9d9;
+}
+#service > .container > .gap > .content .left .left-top div p img {
+  width: auto;
+}
+#service > .container > .gap > .content .left .left-middle {
+  width: 100%;
+  padding: 5px 0 0 0;
+}
+#service > .container > .gap > .content .left .left-middle a img {
+  width: 180px;
+  height: 40px;
+}
+#service > .container > .gap > .content .left .left-bottom {
+  width: 180px;
+  margin: 5px 0 0 0;
+  padding: 20px 15px;
+  border: 1px solid #c2c2c2;
+  background: #f8f8f8;
+}
+#service > .container > .gap > .content .left .left-bottom span {
+  display: block;
+  width: 100%;
+  padding: 0 0 10px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+#service > .container > .gap > .content .left .left-bottom span h3 {
+  font-size: 12px;
+  color: #333;
+  font-weight: 700;
+  line-height: 120%;
+}
+#service > .container > .gap > .content .left .left-bottom span a {
+  color: #268e77;
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: 700;
+}
+#service > .container > .gap > .content .left .left-bottom ul {
+  padding: 10px 0 15px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+#service > .container > .gap > .content .left .left-bottom ul:last-child {
+  padding: 10px 0 5px 0;
+  border: 0;
+}
+#service > .container > .gap > .content .left .left-bottom ul li {
+  margin: 5px 0;
+  font-size: 12px;
+  color: #666;
+  line-height: 120%;
+}
+#service > .container > .gap > .content .left .left-bottom ul li:last-child {
+  margin: 15px 0 5px 0;
+}
+#service > .container > .gap > .content .center {
+  width: 700px;
+}
+#service > .container > .gap > .content .right {
+  width: 80px;
+  margin: 32px 0 0 10px;
+}
+#service > .container > .gap > .content .right ul {
+  width: 100%;
+  border: 1px solid #e5e5e5;
+}
+#service > .container > .gap > .content .right ul li {
+  width: 100%;
+  border-bottom: 1px solid #e5e5e5;
+}
+#service > .container > .gap > .content .right ul li:last-child {
+  border: 0;
+}
+#service > .container > .gap > .content .right ul li a img {
+  width: auto;
+}
+#service .banner {
+  width: 100%;
+  max-width: 1903px;
+  margin: 0 auto;
+  background: #2e68fa;
+  text-align: center;
+}
+#service .banner a {
+  width: 100%;
+}
+#service .banner a img {
+  width: auto;
+}

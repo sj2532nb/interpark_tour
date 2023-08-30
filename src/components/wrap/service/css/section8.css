@@ -1,0 +1,35 @@
+#section8 {
+  width: 100%;
+}
+#section8 .container {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+#section8 .container .gap {
+  width: 100%;
+}
+#section8 .container .gap .title {
+  width: 100%;
+}
+#section8 .container .gap .title h4 {
+  width: 100%;
+}
+#section8 .container .gap .title h4 img {
+  width: auto;
+}
+#section8 .container .gap .content {
+  width: 100%;
+}
+#section8 .container .gap .content img {
+  width: auto;
+}
+#section8 .container .gap .content h5 {
+  width: 100%;
+}
+#section8 .container .gap .content p {
+  width: 100%;
+}
+#section8 .container .gap .content img {
+  width: auto;
+}

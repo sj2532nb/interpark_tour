@@ -1,0 +1,82 @@
+#quickmenu {
+  z-index: 2;
+  position: absolute;
+  top: 60%;
+  right: 40px;
+  width: 130px;
+  display: none;
+}
+#quickmenu.intro {
+  display: block;
+}
+#quickmenu.on {
+  position: fixed;
+  top: 55%;
+}
+#quickmenu .container {
+  width: 100%;
+  text-align: center;
+}
+#quickmenu .container > ul {
+  width: 100%;
+}
+#quickmenu .container > ul > li {
+  width: 100%;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #fff;
+}
+#quickmenu .container > ul > li:nth-child(1) a img {
+  width: 100%;
+}
+#quickmenu .container > ul > li:nth-child(2) {
+  background: #fff;
+}
+#quickmenu .container > ul > li:nth-child(2) h3 {
+  width: 100%;
+  font-size: 18px;
+  font-weight: 700;
+  color: #1769ff;
+  padding: 10px 0;
+}
+#quickmenu .container > ul > li:nth-child(3) {
+  width: 100%;
+  padding: 5px 10px;
+}
+#quickmenu .container > ul > li:nth-child(3) div {
+  width: 100%;
+}
+#quickmenu .container > ul > li:nth-child(3) div span {
+  width: 100%;
+}
+#quickmenu .container > ul > li:nth-child(3) div span a {
+  display: block;
+  width: 100%;
+}
+#quickmenu .container > ul > li:nth-child(3) div span a img {
+  width: auto;
+}
+#quickmenu .container > ul > li:nth-child(3) div span a img.prev-btn {
+  transform: rotate(-90deg);
+}
+#quickmenu .container > ul > li:nth-child(3) div span a img.next-btn {
+  transform: rotate(90deg);
+}
+#quickmenu .container > ul > li:nth-child(3) div .view-box {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  overflow: hidden;
+}
+#quickmenu .container > ul > li:nth-child(3) div .view-box ul {
+  width: 100%;
+  margin: 5px 0;
+}
+#quickmenu .container > ul > li:nth-child(3) div .view-box ul li {
+  width: 100%;
+  margin: 8px 0;
+}
+#quickmenu .container > ul > li:nth-child(3) div .view-box ul li a img {
+  width: 100%;
+}

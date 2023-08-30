@@ -1,0 +1,149 @@
+#wrap {
+  width: 100%;
+}
+#wrap #signin {
+  width: 100%;
+}
+#wrap #signin .container {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+#wrap #signin .container .gap {
+  padding: 30px 30px 100px 30px;
+}
+#wrap #signin .container .gap .content {
+  width: 100%;
+}
+#wrap #signin .container .gap .content .state {
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+#wrap #signin .container .gap .content .state a {
+  display: block;
+  width: 50%;
+  height: 40px;
+  border-bottom: 1px solid #ef3e42;
+  background: #f0f0f0;
+  font-size: 14px;
+  color: #777;
+  text-align: center;
+  line-height: 40px;
+}
+#wrap #signin .container .gap .content .state a.on {
+  background: #fff;
+  border-top: 1px solid #ef3e42;
+  border-left: 1px solid #ef3e42;
+  border-right: 1px solid #ef3e42;
+  border-bottom: none;
+  color: #ef3e42;
+}
+#wrap #signin .container .gap .content .form-box {
+  width: 100%;
+  display: none;
+}
+#wrap #signin .container .gap .content .form-box.on {
+  display: block;
+}
+#wrap #signin .container .gap .content .form-box form {
+  width: 100%;
+  padding: 20px 0;
+}
+#wrap #signin .container .gap .content .form-box form.off {
+  display: none;
+}
+#wrap #signin .container .gap .content .form-box form input {
+  display: block;
+  width: 100%;
+  height: 40px;
+  border: 1px solid #eee;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  outline: none;
+}
+#wrap #signin .container .gap .content .form-box form input::-moz-placeholder {
+  font-size: 14px;
+}
+#wrap #signin .container .gap .content .form-box form input::placeholder {
+  font-size: 14px;
+}
+#wrap #signin .container .gap .content .form-box form button {
+  display: block;
+  width: 100%;
+  height: 50px;
+  border: 0;
+  border-radius: 5px;
+  background: #ef3e42;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 20px 0 10px 0;
+}
+#wrap #signin .container .gap .content .form-box form .login {
+  width: 100%;
+  display: flex;
+  padding: 15px 0;
+}
+#wrap #signin .container .gap .content .form-box form .login > label {
+  width: 100px;
+  line-height: 22px;
+  display: flex;
+}
+#wrap #signin .container .gap .content .form-box form .login > label > input {
+  width: 22px;
+  height: 22px;
+  margin: 0 4px 0 0;
+}
+#wrap #signin .container .gap .content .form-box form p {
+  font-size: 14px;
+  color: #999;
+  padding: 2px 0;
+}
+#wrap #signin .container .gap .content .form-box form hr {
+  margin: 12px 0;
+  border: 1px solid #f0f0f0;
+}
+#wrap #signin .container .gap .content .form-box form .search a {
+  color: #000;
+}
+#wrap #signin .container .gap .content .form-box form .search span {
+  padding: 0 10px;
+  color: #ccc;
+}
+#wrap #signin .container .gap .content .form-box form h5 {
+  font-size: 14px;
+  padding: 0 0 20px 0;
+  color: #000;
+}
+#wrap #signin .container .gap .content .form-box form h5 i {
+  display: inline-block;
+  color: #ef3e42;
+  transform: translateY(-2px);
+}
+#wrap #signin .container .gap .content .form-box form .signin-hp {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#wrap #signin .container .gap .content .form-box form .signin-hp input {
+  width: 274px;
+}
+#wrap #signin .container .gap .content .form-box form .signin-hp .right {
+  width: 134px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0;
+  color: #666;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 400;
+}
+#wrap #signin .container .gap .content .form-box form .signin-hp > button {
+  border: 1px solid #ddd;
+  background: #f9f9f9;
+  border-radius: 0;
+}
+#wrap #signin .container .gap .content .form-box form h4 {
+  line-height: 20px;
+}

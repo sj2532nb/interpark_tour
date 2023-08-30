@@ -1,0 +1,301 @@
+#wrap {
+  width: 100%;
+}
+#wrap #signup {
+  width: 100%;
+}
+#wrap #signup .head {
+  width: 100%;
+  height: 87px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+#wrap #signup .head .gap {
+  width: 1280px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+#wrap #signup .head .gap span {
+  width: 190px;
+  line-height: 87px;
+}
+#wrap #signup .head .gap span img {
+  width: 151px;
+  height: 38px;
+}
+#wrap #signup .head .gap h6 {
+  width: 900px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  color: #000;
+  line-height: 87px;
+}
+#wrap #signup .sign {
+  width: 100%;
+  padding: 30px 0;
+}
+#wrap #signup .sign form {
+  width: 100%;
+}
+#wrap #signup .sign form ul {
+  width: 500px;
+  margin: 0 auto;
+  padding: 65px 0 0 0;
+}
+#wrap #signup .sign form ul:nth-child(3) {
+  padding: 0;
+}
+#wrap #signup .sign form ul li {
+  width: 100%;
+  height: 51px;
+  line-height: 30px;
+  border-bottom: 1px solid #333;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+#wrap #signup .sign form ul li label {
+  font-size: 14px;
+  font-weight: 800;
+  color: #000;
+  padding-right: 10px;
+}
+#wrap #signup .sign form ul li input {
+  width: 250px;
+  border: 0;
+  outline: 0;
+}
+#wrap #signup .sign form ul li input::-moz-placeholder {
+  font-size: 15px;
+  font-weight: 500;
+  color: #ccc;
+}
+#wrap #signup .sign form ul li input::placeholder {
+  font-size: 15px;
+  font-weight: 500;
+  color: #ccc;
+}
+#wrap #signup .sign form ul li a {
+  float: right;
+}
+#wrap #signup .sign form ul li select {
+  border: 0;
+  outline: 0;
+  float: right;
+  font-size: 14px;
+  color: #666;
+  transform: translateY(5px);
+}
+#wrap #signup .sign form ul li > button {
+  float: right;
+  width: 100px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  background: #fff;
+  padding: 0 5px 1px 5px;
+  margin: 0;
+  color: #000;
+  font-size: 13px;
+  font-weight: 400;
+  cursor: pointer;
+}
+#wrap #signup .sign form ul li .error-msg {
+  font-size: 12px;
+  color: #dc941b;
+  padding: 5px 0 0 5px;
+}
+#wrap #signup .sign form ul li .error-msg.on {
+  display: block;
+}
+#wrap #signup .sign form ul li .hp-confirm-num {
+  width: 75px;
+  margin: 0 3px;
+}
+#wrap #signup .sign form ul .personal-info {
+  height: 130px;
+  border-bottom: 0;
+  margin: 0;
+}
+#wrap #signup .sign form ul .personal-info span {
+  line-height: 40px;
+}
+#wrap #signup .sign form ul .personal-info .radio-box {
+  width: 500px;
+  height: 40px;
+  background-color: #eee;
+  border-radius: 10px;
+  padding: 2px;
+  display: flex;
+  justify-content: space-between;
+}
+#wrap #signup .sign form ul .personal-info .radio-box .personal-label {
+  position: relative;
+  padding: 0;
+  width: 247px;
+  height: 100%;
+  line-height: 36px;
+  text-align: center;
+}
+#wrap #signup .sign form ul .personal-info .radio-box .personal-label input[type=radio] {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: #eee;
+  text-align: center;
+  transform: translateY(-2px);
+}
+#wrap #signup .sign form ul .personal-info .radio-box .personal-label .radio.on {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  line-height: 38px;
+  background: #fff;
+  box-shadow: 2px 1px 2px #aaa;
+}
+#wrap #signup .sign form ul .personal-info .radio-box .personal-label .radio-txt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 400;
+}
+#wrap #signup .sign form ul .personal-info h5 {
+  font-size: 12px;
+  font-weight: 400;
+  color: #999;
+  padding: 0;
+}
+#wrap #signup .sign form ul .check {
+  width: 100%;
+  border-bottom: 0;
+}
+#wrap #signup .sign form ul .check span {
+  position: relative;
+  display: block;
+  padding: 0 0 7px 0;
+  font-size: 12px;
+  font-weight: 400;
+}
+#wrap #signup .sign form ul .check span input[type=checkbox] {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 27px;
+  height: 27px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  margin: 0 7px 0 0;
+  top: 3px;
+  left: 0;
+  background: url(../img/signup/icon_check_off.png) no-repeat 50% 50%;
+  background-size: cover;
+}
+#wrap #signup .sign form ul .check span input[type=checkbox]:checked {
+  background: url(../img/signup/icon_check_on.png) no-repeat 50% 50%;
+  background-size: cover;
+  background-color: #1769ff;
+}
+#wrap #signup .sign form ul .check span .h6under14 {
+  padding: 0 0 0 5px;
+  display: none;
+  font-size: 12px;
+  color: #dc941b;
+}
+#wrap #signup .sign form ul .check span .h6under14.on {
+  display: block;
+}
+#wrap #signup .sign form ul .same-mem {
+  width: 100%;
+  display: none;
+}
+#wrap #signup .sign form ul .same-mem.on {
+  display: block;
+}
+#wrap #signup .sign form ul .same-mem i {
+  display: block;
+  padding: 10px 0;
+  font-size: 12px;
+  font-weight: 400;
+}
+#wrap #signup .sign form ul .same-mem a {
+  display: block;
+  padding: 8px 0 30px 0;
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+#wrap #signup .sign form ul .agree {
+  width: 100%;
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+}
+#wrap #signup .sign form ul .agree span {
+  font-size: 14px;
+  font-weight: 800;
+  color: #000;
+}
+#wrap #signup .sign form ul .agree button {
+  width: 140px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  background: #fff;
+  padding: 0 5px 1px 5px;
+  margin: 0;
+  color: #333;
+  font-size: 13px;
+  font-weight: 400;
+  cursor: pointer;
+}
+#wrap #signup .sign form ul .send-num {
+  display: none;
+}
+#wrap #signup .sign form ul .send-num.on {
+  display: block;
+}
+#wrap #signup .sign form .p-box {
+  width: 500px;
+  margin: 0 auto;
+  padding: 45px 0 0 0;
+}
+#wrap #signup .sign form .p-box p {
+  font-size: 13px;
+  color: #000;
+}
+#wrap #signup .sign form .done {
+  display: block;
+  width: 500px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  margin: 40px auto;
+  border: 0;
+  border-radius: 10px;
+  background: #ccc;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+}
+#wrap #signup .sign form .done.on {
+  background-color: #333;
+}
+#wrap #signup .sign form .teen {
+  display: none;
+}
+#wrap #signup .sign form .teen.on {
+  display: block;
+}
+#wrap #signup .foot {
+  width: 100%;
+  height: 80px;
+  background: #f9f9f9;
+}
+#wrap #signup .foot p {
+  color: #999;
+  text-align: center;
+  line-height: 80px;
+  font-size: 11px;
+}

@@ -1,0 +1,86 @@
+#service{
+    #section6{
+        width: 100%;
+        .container{
+            width: 100%;
+            max-width: 700px;
+            margin: 0 auto;
+            .gap{
+                width: 100%;
+                margin: 0 0 -60px 0;
+                .content{
+                    width: 100%;
+                    .top-box{
+                        width: 100%;
+                        padding: 10px 0 0 0;
+                        margin: 0 0 11px 0;
+                        h3{
+                            width: 100%;
+                            background: url(../../../../../public/img/service/bulRightgreen.gif) no-repeat 0 0;
+                            padding: 0 0 0 21px;
+                            margin: 0 0 10px 0;
+                            img{
+                                width: auto;
+                            }
+                        }
+                        img{
+                            width: auto;
+                        }
+                    }
+                    .middle-box{
+                        width: 100%;
+                        margin: 15px 0 0 0;
+                        h4{
+                            width: 100%;
+                            background: url(../../../../../public/img/service/bulRightgreen02.gif) no-repeat 2px 1px;
+                            padding: 0 0 0 20px;
+                            img{
+                                width: auto;
+                                margin: -1px 0 0 0;
+                            }
+                        }
+                        figure{
+                            width: 100%;
+                            margin: 10px 0 0 0;
+                            position: relative;
+                            img{
+                                width: auto;
+                            }
+                            .link1{
+                                position: absolute;
+                                top: 49px;
+                                left: 25px;
+                                display: block;
+                                width: 200px;
+                                height: 95px;
+                            }
+                            .link2{
+                                position: absolute;
+                                top: 49px;
+                                left: 37%;
+                                display: block;
+                                width: 200px;
+                                height: 95px;
+                            }
+                            .link3{
+                                position: absolute;
+                                bottom: 15px;
+                                right: 24px;
+                                display: block;
+                                width: 67px;
+                                height: 23px;
+                            }
+                        }
+                    }
+                    .bottom-box{
+                        width: 100%;
+                        margin: 20px 0 0 0;
+                        img{
+                            width: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

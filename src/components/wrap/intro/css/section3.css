@@ -1,0 +1,44 @@
+#intro #section3 {
+  width: 100%;
+}
+#intro #section3 .container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+#intro #section3 .container .gap {
+  width: 100%;
+  padding: 0 0 90px 0;
+}
+#intro #section3 .container .gap .content {
+  width: 100%;
+}
+#intro #section3 .container .gap .content ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#intro #section3 .container .gap .content ul li {
+  height: 70px;
+  border: 1px solid #e8e8e8;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  background: url(../../../../../public/img/intro/nav_arrow.svg) no-repeat 88% 50%;
+  margin: 0 15px 0 0;
+}
+#intro #section3 .container .gap .content ul li a {
+  padding: 0 52px 0 12px;
+}
+#intro #section3 .container .gap .content ul li a img {
+  width: 44px;
+  height: 44px;
+  margin: 0 12px 0 0;
+}
+#intro #section3 .container .gap .content ul li a span {
+  font-size: 15.5px;
+  font-weight: 700;
+  line-height: 150%;
+  color: #000;
+  letter-spacing: -1px;
+}

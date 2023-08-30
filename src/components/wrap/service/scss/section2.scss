@@ -1,0 +1,296 @@
+#service{
+    #section2{
+        width: 100%;
+        .container{
+            width: 100%;
+            max-width: 700px;
+            margin: 0 auto;
+            .gap{
+                width: 100%;
+                .content{
+                    width: 100%;
+                    margin: 5px 0 0 0;
+                    .top-box{
+                        width: 100%;
+                        padding: 10px 0 0 0;
+                        margin: 0 0 15px 0;
+                        h3{
+                            width: 100%;
+                            background: url(../../../../../public/img/service/bulRightgreen.gif) no-repeat 0 0;
+                            padding: 0 0 0 21px;
+                            margin: 0 0 10px 0;
+                            img{
+                                width: auto;
+                            }
+                        }
+                        img{
+                            width: auto;
+                        }
+                    }
+                    .notice-search-box{
+                        width: 100%;
+                        height: 41px;
+                        display: flex;
+                        background: url(../../../../../public/img/service/bgTabletop01.gif) no-repeat 50% 50%;
+                        padding: 6px 0 0 28px;
+                        .search1-box{
+                            padding: 6px 0 0 0;
+                            margin: 0 10px 0 0;
+                            >img{
+                                width: auto;
+                                margin: 0 10px 0 0;
+                            }
+                            div{
+                                display: inline-block;
+                                width: 100px;
+                                height: 19px;
+                                span{
+                                    display: inline-block;
+                                    width: 100%;
+                                    height: 100%;
+                                    color: #363636;
+                                    padding: 0 17px 0 0;
+                                    cursor: pointer;
+                                    input[type=button]{
+                                        width: 100%;
+                                        height: 100%;
+                                        font-size: 11px;
+                                        border: 0;
+                                        text-align: left;
+                                        padding: 3px 0 0 4px;
+                                        background: url(../../../../../public/img/service/basicSelectsBg.gif) no-repeat 0 0;
+                                        cursor: pointer;
+                                    }
+                                    img{
+                                        width: auto;
+                                        transform: translate(83px, -19px);
+                                    }
+                                }
+                                ul{
+                                    width: 100px;
+                                    background: #cff;
+                                    overflow-y: scroll;
+                                    margin: -1px 0 0 0;
+                                    background: #fff;
+                                    border: 1px solid #c0c0c0;
+                                    li{
+                                        width: 100%;
+                                        &:hover{
+                                            background: #f2f2f2;
+                                        }
+                                        a{
+                                            display: block;
+                                            width: 100%;
+                                            padding: 2px 2px 1px 3px;
+                                            font-size: 11px;
+                                            line-height: 110%;
+                                            color: #363636;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .search2-box{
+                            padding: 6px 0 0 0;
+                            >img{
+                                width: auto;
+                                margin: 0 10px 0 0;
+                            }
+                            div{
+                                display: inline-block;
+                                width: 47px;
+                                height: 19px;
+                                span{
+                                    display: inline-block;
+                                    width: 100%;
+                                    height: 100%;
+                                    color: #363636;
+                                    padding: 0 17px 0 0;
+                                    cursor: pointer;
+                                    input[type=button]{
+                                        width: 100%;
+                                        height: 100%;
+                                        font-size: 11px;
+                                        border: 0;
+                                        text-align: left;
+                                        padding: 3px 0 0 4px;
+                                        background: url(../../../../../public/img/service/basicSelectsBg.gif) no-repeat 0 0;
+                                        cursor: pointer;
+                                    }
+                                    img{
+                                        width: auto;
+                                        transform: translate(30px, -19px);
+                                    }
+                                }
+                                ul{
+                                    width: 47px;
+                                    background: #cff;
+                                    overflow-y: scroll;
+                                    margin: -1px 0 0 0;
+                                    background: #fff;
+                                    border: 1px solid #c0c0c0;
+                                    li{
+                                        width: 100%;
+                                        &:hover{
+                                            background: #f2f2f2;
+                                        }
+                                        a{
+                                            display: block;
+                                            width: 100%;
+                                            padding: 2px 2px 1px 3px;
+                                            font-size: 11px;
+                                            line-height: 110%;
+                                            color: #363636;
+                                        }
+                                    }
+                                }
+                            }
+                            input[type=text]{
+                                width: 128px;
+                                height: 16px;
+                                border: 1px solid #ddd;
+                                margin: 0 3px 0 4px;
+                                color: #646464;
+                                padding: 1px 2px;
+                            }
+                            a{
+                                img{
+                                    width: auto;
+                                }
+                            }
+                        }
+                    }
+                    table{
+                        width: 100%;
+                        margin: 11px 0 0 0;
+                        border-collapse: collapse;
+                        text-align: center;
+                        thead{
+                            width: 100%;
+                            tr{
+                                th{
+                                    background: url(../../../../../public/img/service/bgTableCell.gif) no-repeat 0 0;
+                                    height: 28px;
+                                    span{
+                                        display: block;
+                                        width: 100%;
+                                        height: 100%;
+                                        padding: 5px 0 0 0;
+                                        line-height: 120%;
+                                        img{
+                                            width: auto;
+                                        }
+                                    }
+                                    &:first-child{
+                                        background: url(../../../../../public/img/service/bgTableStartCol.gif) no-repeat 0 0;
+                                    }
+                                    &:last-child{
+                                        span{
+                                            background: url(../../../../../public/img/service/bgTableEndCol.gif) no-repeat 99.5% 0;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        tbody{
+                            width: 100%;
+                            tr{
+                                td{
+                                    border-bottom: 1px solid #e8e8e8;
+                                    padding: 8px 10px;
+                                    color: #666;
+                                    line-height: 120%;
+                                    font-size: 12px;
+                                    &:nth-child(2){
+                                        color: #15983d;
+                                        padding: 8px 20px;
+                                    }
+                                    &:nth-child(3){
+                                        text-align: left;
+                                    }
+                                    &:nth-child(4){
+                                        padding: 8px 25px;
+                                    }
+                                    a{
+                                        &:hover{
+                                            color: #fb7119;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .page-btn-box{
+                        width: 100%;
+                        height: 37px;
+                        background: #f9f9f9;
+                        margin: 50px 0 0 0;
+                        border: 1px solid #eee;
+                        border-bottom-color: #ddd;
+                        text-align: center;
+                        a{
+                            &:nth-child(2),
+                            &:nth-child(3),
+                            &:nth-child(4),
+                            &:nth-child(5),
+                            &:nth-child(6),
+                            &:nth-child(7),
+                            &:nth-child(8),
+                            &:nth-child(9),
+                            &:nth-child(10),
+                            &:nth-child(11){
+                                display: inline-block;
+                                padding: 10px 0 0 0;
+                                width: 39px;
+                                height: 100%;
+                                font-size: 12px;
+                                font-weight: 700;
+                                border-left: 1px solid #eee;
+                                line-height: 120%;
+                                color: #3a3a3a;
+                            }
+                            &:nth-child(1){
+                                display: inline-block;
+                                width: 40px;
+                                height: 100%;
+                                padding: 11px 0 0 0;
+                                margin: 0 6px;
+                                img{
+                                    width: auto;
+                                }
+                            }
+                            &:nth-child(12){
+                                display: inline-block;
+                                width: 40px;
+                                height: 100%;
+                                padding: 11px 0 0 0;
+                                margin: 0 6px 0 0;
+                                border-left: 1px solid #eee;
+                                img{
+                                    width: auto;
+                                    margin: 0 0 0 14px;
+                                }
+                            }
+                            &:nth-child(13){
+                                display: inline-block;
+                                width: 40px;
+                                height: 100%;
+                                padding: 11px 0 0 0;
+                                margin: 0 6px;
+                                img{
+                                    width: auto;
+                                }
+                            }
+                            &:hover{
+                                color: #fb7119;
+                            }
+                            &.on{
+                                color: #fb7119;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

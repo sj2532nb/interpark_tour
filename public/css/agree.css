@@ -1,0 +1,148 @@
+#wrap #agree .container {
+  width: 500px;
+  margin: 0 auto;
+  padding: 40px 0 40px 0;
+}
+#wrap #agree .container .gap {
+  width: 100%;
+}
+#wrap #agree .container .gap .content {
+  width: 100%;
+}
+#wrap #agree .container .gap .content form {
+  width: 100%;
+}
+#wrap #agree .container .gap .content form > div {
+  width: 100%;
+  margin: 25px 0 0 0;
+  color: #000;
+  letter-spacing: -0.5px;
+}
+#wrap #agree .container .gap .content form > div > label {
+  width: 100%;
+  font-size: 17px;
+  font-weight: 700;
+}
+#wrap #agree .container .gap .content form > div > label input[type=checkbox] {
+  margin: 0 7px 0 0;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 28px;
+  height: 28px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  background: url(../img/join/icon_check_off.png) no-repeat 50% 50%;
+  background-size: 100% auto;
+}
+#wrap #agree .container .gap .content form > div > label input[type=checkbox]:checked {
+  background-image: url(../img/join/icon_check_on.png);
+  background-color: #1769ff;
+  border-color: #1769ff;
+}
+#wrap #agree .container .gap .content form > div h2 {
+  padding: 10px 0 0 0;
+  font-size: 15px;
+  font-weight: 700;
+}
+#wrap #agree .container .gap .content form > div ul {
+  width: 100%;
+}
+#wrap #agree .container .gap .content form > div ul li {
+  width: 100%;
+}
+#wrap #agree .container .gap .content form > div ul li label {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: #666;
+  margin: 15px 0 0 0;
+  font-size: 15px;
+  line-height: 1.5;
+}
+#wrap #agree .container .gap .content form > div ul li label input[type=checkbox] {
+  margin: 0 7px 0 0;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 23px;
+  height: 23px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  background: url(../img/join/icon_check_off.png) no-repeat 50% 50%;
+  background-size: 100% auto;
+}
+#wrap #agree .container .gap .content form > div ul li label input[type=checkbox]:checked {
+  background-image: url(../img/join/icon_check_on.png);
+  background-color: #1769ff;
+  border-color: #1769ff;
+}
+#wrap #agree .container .gap .content form > div ul li label img {
+  width: 15px;
+  height: 15px;
+}
+#wrap #agree .container .gap .content form > div ul li > div {
+  margin: 8px 0 0 21px;
+}
+#wrap #agree .container .gap .content form > div ul li > div h3 {
+  font-size: 13px;
+  line-height: 1.5;
+  color: #999;
+  margin: 0 0 5px 0;
+}
+#wrap #agree .container .gap .content form > div ul li > div h3 strong {
+  color: #dc941b;
+}
+#wrap #agree .container .gap .content form > div ul li > div h3 img {
+  width: 15px;
+  height: 15px;
+}
+#wrap #agree .container .gap .content form > div ul li > div .sub-detail {
+  background: #f3f3f3;
+  padding: 15px 15px;
+  margin: 15px 5px 0 0;
+  border-radius: 10px;
+  display: none;
+}
+#wrap #agree .container .gap .content form > div ul li > div .sub-detail.on {
+  display: block;
+}
+#wrap #agree .container .gap .content form > div ul li > div .sub-detail .sub-row1 h4 {
+  font-size: 13px;
+  line-height: 1.5;
+  color: #666;
+}
+#wrap #agree .container .gap .content form > div ul li > div .sub-detail .sub-row2 ul {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 0 20px 0;
+}
+#wrap #agree .container .gap .content form > div ul li > div .sub-detail .sub-row2 ul li {
+  width: 50%;
+}
+#wrap #agree .container .gap .content form > div ul li > div .sub-detail .sub-row3 p {
+  margin: 10px 0 0 0;
+  font-size: 11px;
+  line-height: 1.5;
+  letter-spacing: -1px;
+  color: #999;
+}
+#wrap #agree .container .gap .content form .btn-box {
+  text-align: center;
+  margin: 45px 0 0 0;
+}
+#wrap #agree .container .gap .content form .btn-box button {
+  width: 500px;
+  height: 50px;
+  border: 0;
+  border-radius: 10px;
+  background: #ccc;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  pointer-events: none;
+}
+#wrap #agree .container .gap .content form .btn-box button.on {
+  pointer-events: auto;
+  background-color: #333;
+}

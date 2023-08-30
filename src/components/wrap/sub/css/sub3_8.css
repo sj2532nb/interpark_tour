@@ -1,0 +1,40 @@
+#sub3_8 {
+  width: 100%;
+  background: url(../../../../../public/img/sub3/f214011d28f9450aac41a4a66790cce0.jpg) no-repeat 50% 115px;
+  background-size: auto;
+}
+#sub3_8 .container {
+  width: 100%;
+  max-width: 1903px;
+  margin: 0 auto;
+}
+#sub3_8 .container .gap {
+  width: 100%;
+}
+#sub3_8 .container .gap .top {
+  width: 100%;
+  background: url(../../../../../public/img/sub3/6c87635b37e040bba866192fa7848b6a.jpg) 50% 0;
+  text-align: center;
+  position: relative;
+}
+#sub3_8 .container .gap .top img {
+  width: auto;
+}
+#sub3_8 .container .gap .top .right-link {
+  position: absolute;
+  top: 34px;
+  right: 18%;
+  display: block;
+  width: 68px;
+  height: 68px;
+  overflow: hidden;
+  margin: 0 10px 5px 0;
+  background: url(../../../../../public/img/sub3/icon_sns.png) no-repeat;
+}
+#sub3_8 .container .gap .content {
+  width: 750px;
+  margin: 0 auto;
+}
+#sub3_8 .container .gap .content img {
+  width: auto;
+}

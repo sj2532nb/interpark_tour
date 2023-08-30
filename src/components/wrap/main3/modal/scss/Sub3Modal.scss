@@ -1,0 +1,39 @@
+
+    #sub3Modal {     
+        position: absolute;
+        width: 100%;
+        
+        .container {
+            width: 100%;
+            margin: 0 auto;
+            
+            .gap {
+                width: 100%;
+                .content {
+                    width: 100%;
+                    
+                    .allview{
+                        position: fixed;
+                        width: 1000px;
+                        height: 600px;
+                        z-index: 5;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        border-radius: 15px;
+                        overflow: hidden;                        
+                        
+                        img{
+                            position: absolute;
+                            z-index: -1;
+                            bottom: 0;
+                            left:0;
+                        }
+                        
+                                    
+                    }
+                }
+            }
+        }
+    }
+

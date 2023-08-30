@@ -1,0 +1,94 @@
+#intro #section5 {
+  width: 100%;
+}
+#intro #section5 .container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+#intro #section5 .container .gap {
+  width: 100%;
+  padding: 0 0 90px 0;
+}
+#intro #section5 .container .gap .title {
+  width: 100%;
+  margin: 0 0 20px 0;
+  text-align: center;
+}
+#intro #section5 .container .gap .title h2 {
+  color: #000;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: -2px;
+}
+#intro #section5 .container .gap .title p {
+  font-size: 12px;
+  color: #999;
+  line-height: 150%;
+}
+#intro #section5 .container .gap .content {
+  width: 100%;
+  position: relative;
+}
+#intro #section5 .container .gap .content .slide-container {
+  width: 100%;
+}
+#intro #section5 .container .gap .content .slide-container .slide-view {
+  width: 100%;
+  overflow: hidden;
+}
+#intro #section5 .container .gap .content .slide-container .slide-view .slide-wrap {
+  width: 2600px;
+  display: flex;
+  position: relative;
+}
+#intro #section5 .container .gap .content .slide-container .slide-view .slide-wrap .slide {
+  width: 33.3333333333%;
+  margin: 0 10px;
+}
+#intro #section5 .container .gap .content .slide-container .slide-view .slide-wrap .slide a img {
+  width: 100%;
+  border-radius: 12px;
+}
+#intro #section5 .container .gap .content .prev-btn {
+  position: absolute;
+  top: 30%;
+  left: -20px;
+  width: 48px;
+  height: 48px;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.13);
+}
+#intro #section5 .container .gap .content .prev-btn::after {
+  content: "";
+  position: absolute;
+  top: 31%;
+  left: 18px;
+  width: 10px;
+  height: 18px;
+  background: url(../../../../../public/img/intro/slide_arrow.svg);
+  transform: rotate(180deg);
+}
+#intro #section5 .container .gap .content .next-btn {
+  position: absolute;
+  top: 30%;
+  right: -20px;
+  width: 48px;
+  height: 48px;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.13);
+}
+#intro #section5 .container .gap .content .next-btn::after {
+  content: "";
+  position: absolute;
+  top: 31%;
+  right: 18px;
+  width: 10px;
+  height: 18px;
+  background: url(../../../../../public/img/intro/slide_arrow.svg);
+}

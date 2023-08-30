@@ -1,0 +1,31 @@
+#sub3Modal {
+  position: absolute;
+  width: 100%;
+}
+#sub3Modal .container {
+  width: 100%;
+  margin: 0 auto;
+}
+#sub3Modal .container .gap {
+  width: 100%;
+}
+#sub3Modal .container .gap .content {
+  width: 100%;
+}
+#sub3Modal .container .gap .content .allview {
+  position: fixed;
+  width: 1000px;
+  height: 600px;
+  z-index: 5;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  overflow: hidden;
+}
+#sub3Modal .container .gap .content .allview img {
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  left: 0;
+}

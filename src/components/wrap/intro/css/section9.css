@@ -1,0 +1,19 @@
+#intro #section9 {
+  width: 100%;
+}
+#intro #section9 .container {
+  width: 100%;
+  max-width: 1903px;
+  margin: 0 auto;
+}
+#intro #section9 .container .gap {
+  width: 100%;
+}
+#intro #section9 .container .gap .content {
+  width: 100%;
+  background: #2e68fa;
+  text-align: center;
+}
+#intro #section9 .container .gap .content a img {
+  width: auto;
+}

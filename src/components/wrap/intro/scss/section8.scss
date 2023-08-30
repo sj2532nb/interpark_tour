@@ -1,0 +1,68 @@
+#intro{
+    #section8{
+        width: 100%;
+        .container{
+            width: 100%;
+            max-width: 1280px;
+            margin: 0 auto;
+            .gap{
+                width: 100%;
+                padding: 0 0 90px 0;
+                .title{
+                    width: 100%;
+                    margin: 0 0 20px 0;
+                    text-align: center;
+                    h2{
+                        color: #000;
+                        font-size: 26px;
+                        font-weight: 700;
+                        line-height: 150%;
+                        letter-spacing: -1px;
+                    }
+                }
+                .content{
+                    width: 100%;
+                    ul{
+                        width: 1280px + 24px;
+                        display: flex;
+                        li{
+                            width: 25%;
+                            margin: 0 24px 0 0;
+                            border: 1px solid #e8e8e8;
+                            border-radius: 12px;
+                            padding: 16px;
+                            a{
+                                div{
+                                    width: 100%;
+                                    h4{
+                                        width: 100%;
+                                        font-size: 17px;
+                                        font-weight: 700;
+                                        color: #000;
+                                        line-height: 150%;
+                                        letter-spacing: -2px;
+                                    }
+                                    span{
+                                        width: 100%;
+                                        margin: 8px 0 0 0;
+                                        color: #999;
+                                        font-size: 13px;
+                                        line-height: 150%;
+                                        letter-spacing: -1px;
+                                        display: flex;
+                                        justify-content: space-between;
+                                        align-items: center;
+                                        img{
+                                            width: 50px;
+                                            height: 50px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
